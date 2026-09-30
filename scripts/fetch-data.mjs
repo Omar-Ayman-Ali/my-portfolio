@@ -514,11 +514,18 @@ async function main() {
   };
 
   // Hourly runs should not commit a new snapshot just because the clock moved.
-  // Fields that change on their own (last-online time) don't count either.
+  // Fields that change on their own don't count either: last-online time, and
+  // the push time of the repository hosting this site — the workflow's own
+  // commit moves it, which would otherwise make every run commit again.
+  const hostRepo = (process.env.GITHUB_REPOSITORY?.split('/')[1] ?? `${config.handles.github}.github.io`).toLowerCase();
   const comparable = snap => JSON.stringify({
     ...snap,
     generatedAt: null,
     codeforces: snap.codeforces && { ...snap.codeforces, lastOnlineAt: null },
+    github: snap.github && {
+      ...snap.github,
+      repos: snap.github.repos?.map(r => (r.name.toLowerCase() === hostRepo ? { ...r, pushedAt: null } : r)),
+    },
   });
   if (previous.generatedAt && comparable(previous) === comparable(snapshot)) {
     console.log('\nNo changes — data/snapshot.json left as it was.');
