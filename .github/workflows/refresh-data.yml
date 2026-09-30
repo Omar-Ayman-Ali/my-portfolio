@@ -1,0 +1,44 @@
+# Keeps data/snapshot.json current without anyone opening a terminal.
+# GITHUB_TOKEN here is the token Actions mints for the run — no secret to
+# create, and it already carries the public-read access the fetch needs.
+#
+# CF_API_KEY / CF_API_SECRET (repository secrets, optional) let the fetch see
+# private-group submissions, which the browser never can: with them set, a
+# private solve reaches the site within the hour, with its exact time. Runs
+# that find nothing new leave the snapshot untouched, so nothing is committed.
+name: Refresh live data
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # hourly, at :17
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Codeforces, GitHub and archive data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          CF_API_SECRET: ${{ secrets.CF_API_SECRET }}
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit if the numbers moved
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/snapshot.json data/problems.json
+          git diff --quiet --cached || git commit -m 'chore: refresh live Codeforces, GitHub and archive data'
+          git push

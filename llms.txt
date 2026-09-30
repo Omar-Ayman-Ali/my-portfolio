@@ -1,15 +1,17 @@
-# Omar Ayman Ali (Itz_Arslan) - Systems & Algorithmic Engineering Portfolio
-> 2nd-Year AI & Computer Science Student at Ain Shams University (Faculty of Computer and AI)
-> Specialized in C++, Competitive Programming, High-Performance Computing, and Graph Algorithms.
+# Omar Ayman Ali (Itz_Arslan) — C++ systems & competitive programming
+> Second-year Artificial Intelligence student at National Ain Shams University, Cairo.
+> Focused on C++ system architecture, data structures and competitive programming.
 
-## Canonical Profiles
-- Portfolio: https://omar-ayman-ali.github.io/my-portfolio/
-- Problems Archive: https://omar-ayman-ali.github.io/my-portfolio/problems.html
+## Canonical pages
+- Portfolio: https://omar-ayman-ali.github.io/
+- Solved problems archive (every accepted Codeforces solution, live): https://omar-ayman-ali.github.io/archive.html
 - Codeforces: https://codeforces.com/profile/Itz_Arslan
 - GitHub: https://github.com/Omar-Ayman-Ali
-- LinkedIn: https://linkedin.com/in/omar-ayman-ali
+- Solutions repository: https://github.com/Omar-Ayman-Ali/codeforces-solutions
+- LinkedIn: https://www.linkedin.com/in/omar-ayman-el-sayed/
 
-## Core Competencies
-- Systems Programming (C++20/23, RAII, Cache-Oblivious Algorithms, SIMD)
-- Competitive Programming (200+ Codeforces verified solutions, Division rounds)
-- Algorithmic Problem Solving (DFS/BFS Graph Traversals, Dynamic Programming, Segment Trees, Number Theory)
+## Core competencies
+- C++20: templates, STL internals, memory layout, fast I/O
+- Data structures: segment trees (lazy propagation), DSU, sparse tables, treaps, heavy-light decomposition
+- Algorithms: dynamic programming, graph algorithms (Tarjan's SCC, 2-SAT, max-flow/min-cut), number theory
+- Competitive programming on Codeforces, including private training groups (acmASCIS, Assiut Newcomers, IEEE CodeRefine)

@@ -1,4 +1,10 @@
+.env
+node_modules/
 .DS_Store
+*.log
+
+# Design handoff (prototype source files) — kept locally, not published.
+Portfolio website project-handoff/
 Thumbs.db
 __pycache__/
 *.pyc

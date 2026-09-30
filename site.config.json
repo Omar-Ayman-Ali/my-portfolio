@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "name": "Omar Ayman Ali",
+    "shortName": "Omar Ali",
+    "role": "AI student \u00b7 C++ systems \u00b7 Cairo",
+    "email": "omar.ayman.ali@outlook.com",
+    "university": "National Ain Shams University",
+    "linkedin": "https://www.linkedin.com/in/omar-ayman-el-sayed/"
+  },
+  "handles": {
+    "codeforces": "Itz_Arslan",
+    "github": "Omar-Ayman-Ali"
+  },
+  "archiveRepo": {
+    "owner": "Omar-Ayman-Ali",
+    "name": "codeforces-solutions",
+    "branch": "main"
+  },
+  "targets": {
+    "nextRating": 1200,
+    "nextRank": "Pupil"
+  },
+  "featuredRepos": [
+    "codeforces-solutions",
+    "hospital-management-system-cpp",
+    "ecommerce-summer-training"
+  ]
+}

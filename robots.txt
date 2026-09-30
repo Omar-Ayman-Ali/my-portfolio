@@ -1,6 +1,5 @@
-# robots.txt for Omar Ayman Ali Portfolio (https://omar-ayman-ali.github.io/my-portfolio/)
+# robots.txt for Omar Ayman Ali — https://omar-ayman-ali.github.io/
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://omar-ayman-ali.github.io/my-portfolio/sitemap.xml
+Sitemap: https://omar-ayman-ali.github.io/sitemap.xml

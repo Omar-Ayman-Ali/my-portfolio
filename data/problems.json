@@ -1,0 +1,3690 @@
+[
+  {
+    "contestId": 715039,
+    "index": "A",
+    "name": "Easy One",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/Wpi4XHshsC/contest/715039/problem/A",
+    "submissionId": 390182007,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "IEEE - CodeRefine V2.0/715039A-easy-one"
+  },
+  {
+    "contestId": 715039,
+    "index": "B",
+    "name": "Student Network Reconfiguration",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/Wpi4XHshsC/contest/715039/problem/B",
+    "submissionId": 390186408,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 265,
+    "memoryConsumedBytes": 4096000,
+    "relativeFolder": "IEEE - CodeRefine V2.0/715039B-student-network-reconfiguration"
+  },
+  {
+    "contestId": 715039,
+    "index": "D",
+    "name": "Telemetry Diagnostics",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/Wpi4XHshsC/contest/715039/problem/D",
+    "submissionId": 390184718,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "IEEE - CodeRefine V2.0/715039D-telemetry-diagnostics"
+  },
+  {
+    "contestId": 715039,
+    "index": "E",
+    "name": "Study Buddy Matcher",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/Wpi4XHshsC/contest/715039/problem/E",
+    "submissionId": 390183775,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 156,
+    "memoryConsumedBytes": 10547200,
+    "relativeFolder": "IEEE - CodeRefine V2.0/715039E-study-buddy-matcher"
+  },
+  {
+    "contestId": 665685,
+    "index": "A",
+    "name": "Bigz hates CP",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/pz7RXdwh9g/contest/665685/problem/A",
+    "submissionId": 360762617,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level 1 Qualification Contest '26/665685A-bigz-hates-cp"
+  },
+  {
+    "contestId": 665685,
+    "index": "D",
+    "name": "DNA",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/pz7RXdwh9g/contest/665685/problem/D",
+    "submissionId": 360763317,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level 1 Qualification Contest '26/665685D-dna"
+  },
+  {
+    "contestId": 656521,
+    "index": "A",
+    "name": "Cubic Queries",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/656521/problem/A",
+    "submissionId": 352129644,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 171,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/656521A-cubic-queries"
+  },
+  {
+    "contestId": 656521,
+    "index": "D",
+    "name": "Tk Tk Tk Tk...",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/656521/problem/D",
+    "submissionId": 352122853,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/656521D-tk-tk-tk-tk"
+  },
+  {
+    "contestId": 654157,
+    "index": "A",
+    "name": "They eat and deny",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/654157/problem/A",
+    "submissionId": 351074958,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 202,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/654157A-they-eat-and-deny"
+  },
+  {
+    "contestId": 654157,
+    "index": "B",
+    "name": "Division by zero",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/654157/problem/B",
+    "submissionId": 351075634,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/654157B-division-by-zero"
+  },
+  {
+    "contestId": 651191,
+    "index": "A",
+    "name": "The Lost Number",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/A",
+    "submissionId": 350328046,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 77,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191A-the-lost-number"
+  },
+  {
+    "contestId": 651191,
+    "index": "B",
+    "name": "The Diagonals Game",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/B",
+    "submissionId": 350381095,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 937,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191B-the-diagonals-game"
+  },
+  {
+    "contestId": 651191,
+    "index": "C",
+    "name": "Bored Vasya",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/C",
+    "submissionId": 350339709,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 77,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191C-bored-vasya"
+  },
+  {
+    "contestId": 651191,
+    "index": "D",
+    "name": "Clean up the Mess",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/D",
+    "submissionId": 350383681,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 859,
+    "memoryConsumedBytes": 1126400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191D-clean-up-the-mess"
+  },
+  {
+    "contestId": 651191,
+    "index": "E",
+    "name": "Serve the Dishes",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/E",
+    "submissionId": 351056671,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191E-serve-the-dishes"
+  },
+  {
+    "contestId": 651191,
+    "index": "F",
+    "name": "Test #1",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/F",
+    "submissionId": 351063250,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 77,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191F-test-1"
+  },
+  {
+    "contestId": 651191,
+    "index": "G",
+    "name": "Heimerdinger and The Treasure",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/G",
+    "submissionId": 351054577,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191G-heimerdinger-and-the-treasure"
+  },
+  {
+    "contestId": 651191,
+    "index": "H",
+    "name": "Sort the Array",
+    "rating": 1300,
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/H",
+    "submissionId": 351065740,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 265,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191H-sort-the-array"
+  },
+  {
+    "contestId": 651191,
+    "index": "J",
+    "name": "Beautiful Array",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/J",
+    "submissionId": 360479981,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 93,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191J-beautiful-array"
+  },
+  {
+    "contestId": 651191,
+    "index": "K",
+    "name": "Stones",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/K",
+    "submissionId": 360380719,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191K-stones"
+  },
+  {
+    "contestId": 651191,
+    "index": "M",
+    "name": "I Wanna Be the Guy",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/M",
+    "submissionId": 360388191,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191M-i-wanna-be-the-guy"
+  },
+  {
+    "contestId": 651191,
+    "index": "O",
+    "name": "Sushi buddies",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/O",
+    "submissionId": 350186699,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191O-sushi-buddies"
+  },
+  {
+    "contestId": 651191,
+    "index": "P",
+    "name": "One Word",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651191/problem/P",
+    "submissionId": 360617094,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651191P-one-word"
+  },
+  {
+    "contestId": 651190,
+    "index": "A",
+    "name": "Arrays",
+    "rating": 900,
+    "tags": [
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651190/problem/A",
+    "submissionId": 350087977,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 374,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651190A-arrays"
+  },
+  {
+    "contestId": 651190,
+    "index": "B",
+    "name": "Vamoose",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651190/problem/B",
+    "submissionId": 350296768,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 218,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651190B-vamoose"
+  },
+  {
+    "contestId": 651190,
+    "index": "C",
+    "name": "Finally, some rest.",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651190/problem/C",
+    "submissionId": 360319728,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651190C-finally-some-rest"
+  },
+  {
+    "contestId": 651190,
+    "index": "D",
+    "name": "Polycarp and Sums of Subsequences",
+    "rating": 800,
+    "tags": [
+      "math",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651190/problem/D",
+    "submissionId": 360322786,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651190D-polycarp-and-sums-of-subsequences"
+  },
+  {
+    "contestId": 651190,
+    "index": "E",
+    "name": "I Love Atcoder",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651190/problem/E",
+    "submissionId": 360328592,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651190E-i-love-atcoder"
+  },
+  {
+    "contestId": 651187,
+    "index": "A",
+    "name": "Cool Array",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651187/problem/A",
+    "submissionId": 349409115,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 139,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651187A-cool-array"
+  },
+  {
+    "contestId": 651187,
+    "index": "B",
+    "name": "War",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651187/problem/B",
+    "submissionId": 349483398,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 109,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651187B-war"
+  },
+  {
+    "contestId": 651187,
+    "index": "C",
+    "name": "Vice Versa",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651187/problem/C",
+    "submissionId": 349490433,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 61,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651187C-vice-versa"
+  },
+  {
+    "contestId": 651187,
+    "index": "D",
+    "name": "Lucky Number Checker",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651187/problem/D",
+    "submissionId": 349548386,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651187D-lucky-number-checker"
+  },
+  {
+    "contestId": 651187,
+    "index": "E",
+    "name": "Pascal's Triangle",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651187/problem/E",
+    "submissionId": 350099733,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651187E-pascal-s-triangle"
+  },
+  {
+    "contestId": 651085,
+    "index": "A",
+    "name": "Odd Hater (Easy Version)",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651085/problem/A",
+    "submissionId": 349002343,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 108,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651085A-odd-hater-easy-version"
+  },
+  {
+    "contestId": 651085,
+    "index": "B",
+    "name": "Odd Hater (Easy Easy Version)",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651085/problem/B",
+    "submissionId": 355919894,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 140,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651085B-odd-hater-easy-easy-version"
+  },
+  {
+    "contestId": 651085,
+    "index": "C",
+    "name": "Not Again!",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651085/problem/C",
+    "submissionId": 349010005,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 171,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651085C-not-again"
+  },
+  {
+    "contestId": 651085,
+    "index": "D",
+    "name": "Do you know how I hate the rain ?",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651085/problem/D",
+    "submissionId": 355923208,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651085D-do-you-know-how-i-hate-the-rain"
+  },
+  {
+    "contestId": 651085,
+    "index": "E",
+    "name": "Bridge",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/651085/problem/E",
+    "submissionId": 349173376,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/651085E-bridge"
+  },
+  {
+    "contestId": 650565,
+    "index": "A",
+    "name": "1st Digit of the Factorial",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/650565/problem/A",
+    "submissionId": 357012864,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/650565A-1st-digit-of-the-factorial"
+  },
+  {
+    "contestId": 650565,
+    "index": "B",
+    "name": "Safe",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/650565/problem/B",
+    "submissionId": 357018088,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/650565B-safe"
+  },
+  {
+    "contestId": 650565,
+    "index": "D",
+    "name": "The divisible divider",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/650565/problem/D",
+    "submissionId": 359983195,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/650565D-the-divisible-divider"
+  },
+  {
+    "contestId": 650565,
+    "index": "E",
+    "name": "Civil registry",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/650565/problem/E",
+    "submissionId": 360014664,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 328,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/650565E-civil-registry"
+  },
+  {
+    "contestId": 645756,
+    "index": "A",
+    "name": "Best Mentor",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/A",
+    "submissionId": 347459080,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 93,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756A-best-mentor"
+  },
+  {
+    "contestId": 645756,
+    "index": "B",
+    "name": "Sorting Sequence",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/B",
+    "submissionId": 355399677,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 3250,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756B-sorting-sequence"
+  },
+  {
+    "contestId": 645756,
+    "index": "C",
+    "name": "Martin Mystery",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/C",
+    "submissionId": 355409761,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 187,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756C-martin-mystery"
+  },
+  {
+    "contestId": 645756,
+    "index": "D",
+    "name": "Following Directions",
+    "rating": 800,
+    "tags": [
+      "geometry",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/D",
+    "submissionId": 348014340,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756D-following-directions"
+  },
+  {
+    "contestId": 645756,
+    "index": "E",
+    "name": "Ramadan in Berland",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/E",
+    "submissionId": 348020111,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 484,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756E-ramadan-in-berland"
+  },
+  {
+    "contestId": 645756,
+    "index": "F",
+    "name": "Jumping Mario",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/F",
+    "submissionId": 348072351,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756F-jumping-mario"
+  },
+  {
+    "contestId": 645756,
+    "index": "G",
+    "name": "SoundCloud",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/G",
+    "submissionId": 348149316,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 61,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756G-soundcloud"
+  },
+  {
+    "contestId": 645756,
+    "index": "H",
+    "name": "Businessman",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/H",
+    "submissionId": 348648887,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 296,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756H-businessman"
+  },
+  {
+    "contestId": 645756,
+    "index": "I",
+    "name": "Harry the Curious",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/I",
+    "submissionId": 355690226,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756I-harry-the-curious"
+  },
+  {
+    "contestId": 645756,
+    "index": "J",
+    "name": "Cards",
+    "tags": [
+      "constructive algorithms",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/J",
+    "submissionId": 355903838,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756J-cards"
+  },
+  {
+    "contestId": 645756,
+    "index": "K",
+    "name": "Not Quite Latin Square",
+    "rating": 800,
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/K",
+    "submissionId": 355908932,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756K-not-quite-latin-square"
+  },
+  {
+    "contestId": 645756,
+    "index": "L",
+    "name": "2D grid",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/L",
+    "submissionId": 355684560,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756L-2d-grid"
+  },
+  {
+    "contestId": 645756,
+    "index": "M",
+    "name": "3N + 1",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/M",
+    "submissionId": 355412115,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756M-3n-1"
+  },
+  {
+    "contestId": 645756,
+    "index": "N",
+    "name": "The Fight of Odds and Evens",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/N",
+    "submissionId": 355677806,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756N-the-fight-of-odds-and-evens"
+  },
+  {
+    "contestId": 645756,
+    "index": "O",
+    "name": "Peter's Birthday",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/O",
+    "submissionId": 355918625,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 593,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756O-peter-s-birthday"
+  },
+  {
+    "contestId": 645756,
+    "index": "P",
+    "name": "Just A Girl",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645756/problem/P",
+    "submissionId": 355676128,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645756P-just-a-girl"
+  },
+  {
+    "contestId": 645754,
+    "index": "A",
+    "name": "Struggling CapMan",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645754/problem/A",
+    "submissionId": 346568049,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 233,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645754A-struggling-capman"
+  },
+  {
+    "contestId": 645754,
+    "index": "B",
+    "name": "Contest Performance",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645754/problem/B",
+    "submissionId": 346682758,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 187,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645754B-contest-performance"
+  },
+  {
+    "contestId": 645754,
+    "index": "C",
+    "name": "Recruitment",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645754/problem/C",
+    "submissionId": 346600539,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645754C-recruitment"
+  },
+  {
+    "contestId": 645754,
+    "index": "D",
+    "name": "Sushi for Two",
+    "rating": 900,
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645754/problem/D",
+    "submissionId": 355293104,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 109,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645754D-sushi-for-two"
+  },
+  {
+    "contestId": 645754,
+    "index": "E",
+    "name": "Hard Equation",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645754/problem/E",
+    "submissionId": 355296692,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 3625,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645754E-hard-equation"
+  },
+  {
+    "contestId": 645751,
+    "index": "A",
+    "name": "Yan and Maths",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645751/problem/A",
+    "submissionId": 345929486,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 61,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645751A-yan-and-maths"
+  },
+  {
+    "contestId": 645751,
+    "index": "B",
+    "name": "Bokloz and Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645751/problem/B",
+    "submissionId": 346046552,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 328,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645751B-bokloz-and-numbers"
+  },
+  {
+    "contestId": 645751,
+    "index": "C",
+    "name": "Counting Gifts",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645751/problem/C",
+    "submissionId": 346127481,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645751C-counting-gifts"
+  },
+  {
+    "contestId": 645751,
+    "index": "D",
+    "name": "World War III",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645751/problem/D",
+    "submissionId": 346357548,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 328,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645751D-world-war-iii"
+  },
+  {
+    "contestId": 645751,
+    "index": "E",
+    "name": "I my number",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645751/problem/E",
+    "submissionId": 346408475,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 1046,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645751E-i-my-number"
+  },
+  {
+    "contestId": 645509,
+    "index": "A",
+    "name": "Covalent Bonds",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645509/problem/A",
+    "submissionId": 345936909,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645509A-covalent-bonds"
+  },
+  {
+    "contestId": 645509,
+    "index": "B",
+    "name": "Bob and YoussefProb",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645509/problem/B",
+    "submissionId": 345938887,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645509B-bob-and-youssefprob"
+  },
+  {
+    "contestId": 645509,
+    "index": "C",
+    "name": "Peter's trial",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645509/problem/C",
+    "submissionId": 345629769,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645509C-peter-s-trial"
+  },
+  {
+    "contestId": 645509,
+    "index": "D",
+    "name": "Div.1 Z",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645509/problem/D",
+    "submissionId": 355229224,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645509D-div-1-z"
+  },
+  {
+    "contestId": 645509,
+    "index": "E",
+    "name": "Habduction",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/645509/problem/E",
+    "submissionId": 355230753,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/645509E-habduction"
+  },
+  {
+    "contestId": 643344,
+    "index": "A",
+    "name": "Almost rectangle",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/A",
+    "submissionId": 373505488,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344A-almost-rectangle"
+  },
+  {
+    "contestId": 643344,
+    "index": "B",
+    "name": "Sticks",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/B",
+    "submissionId": 373507687,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344B-sticks"
+  },
+  {
+    "contestId": 643344,
+    "index": "C",
+    "name": "Soldier and Bananas",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "implementation",
+      "math"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/C",
+    "submissionId": 345578837,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344C-soldier-and-bananas"
+  },
+  {
+    "contestId": 643344,
+    "index": "D",
+    "name": "Up Or Down?",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/D",
+    "submissionId": 355212176,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344D-up-or-down"
+  },
+  {
+    "contestId": 643344,
+    "index": "E",
+    "name": "Shapes",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/E",
+    "submissionId": 355213313,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344E-shapes"
+  },
+  {
+    "contestId": 643344,
+    "index": "F",
+    "name": "Nada The Chess Master",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/F",
+    "submissionId": 355218207,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344F-nada-the-chess-master"
+  },
+  {
+    "contestId": 643344,
+    "index": "G",
+    "name": "Fair Enough",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/G",
+    "submissionId": 355219271,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344G-fair-enough"
+  },
+  {
+    "contestId": 643344,
+    "index": "H",
+    "name": "Stones",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/H",
+    "submissionId": 355219872,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344H-stones"
+  },
+  {
+    "contestId": 643344,
+    "index": "I",
+    "name": "Divisibility Game",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/I",
+    "submissionId": 355220670,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344I-divisibility-game"
+  },
+  {
+    "contestId": 643344,
+    "index": "J",
+    "name": "Unknown lines",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/J",
+    "submissionId": 355222897,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344J-unknown-lines"
+  },
+  {
+    "contestId": 643344,
+    "index": "K",
+    "name": "The Magic Land",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/K",
+    "submissionId": 355223575,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344K-the-magic-land"
+  },
+  {
+    "contestId": 643344,
+    "index": "L",
+    "name": "Guess what?",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/L",
+    "submissionId": 355224768,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344L-guess-what"
+  },
+  {
+    "contestId": 643344,
+    "index": "M",
+    "name": "Onmi-man & Malak",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/M",
+    "submissionId": 355225239,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344M-onmi-man-malak"
+  },
+  {
+    "contestId": 643344,
+    "index": "N",
+    "name": "Again Twenty Five!",
+    "rating": 800,
+    "tags": [
+      "number theory"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/N",
+    "submissionId": 355225765,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344N-again-twenty-five"
+  },
+  {
+    "contestId": 643344,
+    "index": "O",
+    "name": "Climbing Forever",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/O",
+    "submissionId": 355228824,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344O-climbing-forever"
+  },
+  {
+    "contestId": 643344,
+    "index": "P",
+    "name": "GG EZ",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643344/problem/P",
+    "submissionId": 355227921,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643344P-gg-ez"
+  },
+  {
+    "contestId": 643343,
+    "index": "A",
+    "name": "Watermelon",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643343/problem/A",
+    "submissionId": 345072439,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643343A-watermelon"
+  },
+  {
+    "contestId": 643343,
+    "index": "B",
+    "name": "Money, Money, Money!",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643343/problem/B",
+    "submissionId": 345082228,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643343B-money-money-money"
+  },
+  {
+    "contestId": 643343,
+    "index": "C",
+    "name": "Can you sort them?",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643343/problem/C",
+    "submissionId": 345091366,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643343C-can-you-sort-them"
+  },
+  {
+    "contestId": 643343,
+    "index": "D",
+    "name": "Boo and The Equation",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643343/problem/D",
+    "submissionId": 345093373,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643343D-boo-and-the-equation"
+  },
+  {
+    "contestId": 643343,
+    "index": "E",
+    "name": "Alibaba and the Cave",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643343/problem/E",
+    "submissionId": 345096064,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643343E-alibaba-and-the-cave"
+  },
+  {
+    "contestId": 643343,
+    "index": "F",
+    "name": "Peter's Note",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643343/problem/F",
+    "submissionId": 344963828,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643343F-peter-s-note"
+  },
+  {
+    "contestId": 643342,
+    "index": "A",
+    "name": "Ace or Bits",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643342/problem/A",
+    "submissionId": 345097218,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643342A-ace-or-bits"
+  },
+  {
+    "contestId": 643342,
+    "index": "B",
+    "name": "The Perfectionist",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643342/problem/B",
+    "submissionId": 345200560,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 77,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643342B-the-perfectionist"
+  },
+  {
+    "contestId": 643342,
+    "index": "C",
+    "name": "Motel Night-in",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643342/problem/C",
+    "submissionId": 345327424,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 61,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643342C-motel-night-in"
+  },
+  {
+    "contestId": 643342,
+    "index": "D",
+    "name": "Music Chairs",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643342/problem/D",
+    "submissionId": 345415049,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643342D-music-chairs"
+  },
+  {
+    "contestId": 643342,
+    "index": "E",
+    "name": "Mount Boberest",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/tTJnpKpFzH/contest/643342/problem/E",
+    "submissionId": 355100310,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "acmASCIS Level 1 Training '26/643342E-mount-boberest"
+  },
+  {
+    "contestId": 605482,
+    "index": "B",
+    "name": "Queue ID",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/605482/problem/B",
+    "submissionId": 391298075,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/605482B-queue-id"
+  },
+  {
+    "contestId": 605482,
+    "index": "C",
+    "name": "Deque Easy version",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/605482/problem/C",
+    "submissionId": 391300337,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/605482C-deque-easy-version"
+  },
+  {
+    "contestId": 605482,
+    "index": "D",
+    "name": "Regular Bracket Sequence (Easy Version)",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/605482/problem/D",
+    "submissionId": 391301293,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/605482D-regular-bracket-sequence-easy-version"
+  },
+  {
+    "contestId": 605482,
+    "index": "E",
+    "name": "Regular Bracket Sequence",
+    "rating": 1400,
+    "tags": [
+      "greedy"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/605482/problem/E",
+    "submissionId": 391302346,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/605482E-regular-bracket-sequence"
+  },
+  {
+    "contestId": 605482,
+    "index": "F",
+    "name": "Regular Bracket Sequence (Hard Version)",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/605482/problem/F",
+    "submissionId": 391304468,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/605482F-regular-bracket-sequence-hard-version"
+  },
+  {
+    "contestId": 604006,
+    "index": "A",
+    "name": "Really..!",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/A",
+    "submissionId": 389097840,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/604006A-really"
+  },
+  {
+    "contestId": 604006,
+    "index": "B",
+    "name": "Equal Candies",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/B",
+    "submissionId": 389099288,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/604006B-equal-candies"
+  },
+  {
+    "contestId": 604006,
+    "index": "C",
+    "name": "Life of a Flower",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/C",
+    "submissionId": 389107889,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/604006C-life-of-a-flower"
+  },
+  {
+    "contestId": 604006,
+    "index": "D",
+    "name": "Mahmoud and a Triangle",
+    "rating": 1000,
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/D",
+    "submissionId": 389110769,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/604006D-mahmoud-and-a-triangle"
+  },
+  {
+    "contestId": 604006,
+    "index": "E",
+    "name": "Give them the maximum",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/E",
+    "submissionId": 389132032,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 281,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/604006E-give-them-the-maximum"
+  },
+  {
+    "contestId": 604006,
+    "index": "F",
+    "name": "Who is The Fool",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/F",
+    "submissionId": 389677981,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/604006F-who-is-the-fool"
+  },
+  {
+    "contestId": 604006,
+    "index": "G",
+    "name": "One and Two",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "implementation",
+      "math"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/G",
+    "submissionId": 389679982,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/604006G-one-and-two"
+  },
+  {
+    "contestId": 604006,
+    "index": "H",
+    "name": "X-Sum",
+    "rating": 1000,
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/H",
+    "submissionId": 389686277,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 204800,
+    "relativeFolder": "Level Zero 2025 - Public/604006H-x-sum"
+  },
+  {
+    "contestId": 604006,
+    "index": "I",
+    "name": "Hamed's Subarrays",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/604006/problem/I",
+    "submissionId": 389689327,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 8089600,
+    "relativeFolder": "Level Zero 2025 - Public/604006I-hamed-s-subarrays"
+  },
+  {
+    "contestId": 603848,
+    "index": "A",
+    "name": "Is It Frequency",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/A",
+    "submissionId": 389302407,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/603848A-is-it-frequency"
+  },
+  {
+    "contestId": 603848,
+    "index": "B",
+    "name": "Count",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/B",
+    "submissionId": 389303037,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/603848B-count"
+  },
+  {
+    "contestId": 603848,
+    "index": "C",
+    "name": "Triple",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/C",
+    "submissionId": 389304820,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 1000,
+    "memoryConsumedBytes": 1024000,
+    "relativeFolder": "Level Zero 2025 - Public/603848C-triple"
+  },
+  {
+    "contestId": 603848,
+    "index": "D",
+    "name": "Array (Easy Version)",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/D",
+    "submissionId": 389308225,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/603848D-array-easy-version"
+  },
+  {
+    "contestId": 603848,
+    "index": "E",
+    "name": "Array (Hard Version)",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/E",
+    "submissionId": 389308322,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/603848E-array-hard-version"
+  },
+  {
+    "contestId": 603848,
+    "index": "G",
+    "name": "Stupid Sensors",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/G",
+    "submissionId": 389362767,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 218,
+    "memoryConsumedBytes": 24064000,
+    "relativeFolder": "Level Zero 2025 - Public/603848G-stupid-sensors"
+  },
+  {
+    "contestId": 603848,
+    "index": "H",
+    "name": "Restaurant Customers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/H",
+    "submissionId": 389365997,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 93,
+    "memoryConsumedBytes": 4096000,
+    "relativeFolder": "Level Zero 2025 - Public/603848H-restaurant-customers"
+  },
+  {
+    "contestId": 603848,
+    "index": "I",
+    "name": "Max 2D Box",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/603848/problem/I",
+    "submissionId": 389387781,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 171,
+    "memoryConsumedBytes": 12288000,
+    "relativeFolder": "Level Zero 2025 - Public/603848I-max-2d-box"
+  },
+  {
+    "contestId": 596853,
+    "index": "A",
+    "name": "Free Accepted",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/A",
+    "submissionId": 389010303,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/596853A-free-accepted"
+  },
+  {
+    "contestId": 596853,
+    "index": "B",
+    "name": "My First Sorting Problem",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/B",
+    "submissionId": 389010573,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 15,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/596853B-my-first-sorting-problem"
+  },
+  {
+    "contestId": 596853,
+    "index": "C",
+    "name": "The Fool Again",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/C",
+    "submissionId": 389012013,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/596853C-the-fool-again"
+  },
+  {
+    "contestId": 596853,
+    "index": "D",
+    "name": "Missed Number",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/D",
+    "submissionId": 389087299,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 15,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/596853D-missed-number"
+  },
+  {
+    "contestId": 596853,
+    "index": "E",
+    "name": "Mewwwwwwwwo",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/E",
+    "submissionId": 389014304,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/596853E-mewwwwwwwwo"
+  },
+  {
+    "contestId": 596853,
+    "index": "F",
+    "name": "Pizza For Sameh",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/F",
+    "submissionId": 389090733,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/596853F-pizza-for-sameh"
+  },
+  {
+    "contestId": 596853,
+    "index": "G",
+    "name": "My Last Sorting Problem",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/596853/problem/G",
+    "submissionId": 389095009,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 140,
+    "memoryConsumedBytes": 5632000,
+    "relativeFolder": "Level Zero 2025 - Public/596853G-my-last-sorting-problem"
+  },
+  {
+    "contestId": 594798,
+    "index": "A",
+    "name": "Winner!",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/A",
+    "submissionId": 388822840,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/594798A-winner"
+  },
+  {
+    "contestId": 594798,
+    "index": "B",
+    "name": "Normal Problem",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/B",
+    "submissionId": 388826740,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 15,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/594798B-normal-problem"
+  },
+  {
+    "contestId": 594798,
+    "index": "C",
+    "name": "Splitting The Array",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/C",
+    "submissionId": 388832416,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/594798C-splitting-the-array"
+  },
+  {
+    "contestId": 594798,
+    "index": "D",
+    "name": "Rotate Array",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/D",
+    "submissionId": 388835642,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/594798D-rotate-array"
+  },
+  {
+    "contestId": 594798,
+    "index": "E",
+    "name": "Ziad's String Challenge",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/E",
+    "submissionId": 388835575,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/594798E-ziad-s-string-challenge"
+  },
+  {
+    "contestId": 594798,
+    "index": "F",
+    "name": "Triple Inverse",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/F",
+    "submissionId": 388993304,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 203,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/594798F-triple-inverse"
+  },
+  {
+    "contestId": 594798,
+    "index": "G",
+    "name": "The Enchanted Tower",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/G",
+    "submissionId": 388858346,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/594798G-the-enchanted-tower"
+  },
+  {
+    "contestId": 594798,
+    "index": "H",
+    "name": "El-Genena Password",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/594798/problem/H",
+    "submissionId": 389006728,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/594798H-el-genena-password"
+  },
+  {
+    "contestId": 593212,
+    "index": "A",
+    "name": "The Fool",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/A",
+    "submissionId": 388763936,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/593212A-the-fool"
+  },
+  {
+    "contestId": 593212,
+    "index": "B",
+    "name": "Is Valid Password",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/B",
+    "submissionId": 388764293,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/593212B-is-valid-password"
+  },
+  {
+    "contestId": 593212,
+    "index": "C",
+    "name": "A Peace Of Cake Problem",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/C",
+    "submissionId": 388764459,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/593212C-a-peace-of-cake-problem"
+  },
+  {
+    "contestId": 593212,
+    "index": "D",
+    "name": "Race",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/D",
+    "submissionId": 388764781,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/593212D-race"
+  },
+  {
+    "contestId": 593212,
+    "index": "E",
+    "name": "Maaaaaaaaaaaaaaaaaath",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/E",
+    "submissionId": 388766276,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/593212E-maaaaaaaaaaaaaaaaaath"
+  },
+  {
+    "contestId": 593212,
+    "index": "F",
+    "name": "Hit It",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/F",
+    "submissionId": 388772676,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/593212F-hit-it"
+  },
+  {
+    "contestId": 593212,
+    "index": "G",
+    "name": "Cucurella In El-Genena",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/593212/problem/G",
+    "submissionId": 388773871,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/593212G-cucurella-in-el-genena"
+  },
+  {
+    "contestId": 591913,
+    "index": "A",
+    "name": "Hello World!",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/A",
+    "submissionId": 388675675,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 0,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913A-hello-world"
+  },
+  {
+    "contestId": 591913,
+    "index": "B",
+    "name": "I Hate Maths",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/B",
+    "submissionId": 388675804,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913B-i-hate-maths"
+  },
+  {
+    "contestId": 591913,
+    "index": "C",
+    "name": "Area of a Circle",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/C",
+    "submissionId": 388676499,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913C-area-of-a-circle"
+  },
+  {
+    "contestId": 591913,
+    "index": "D",
+    "name": "Repression",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/D",
+    "submissionId": 388677222,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913D-repression"
+  },
+  {
+    "contestId": 591913,
+    "index": "E",
+    "name": "Difference",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/E",
+    "submissionId": 388677328,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913E-difference"
+  },
+  {
+    "contestId": 591913,
+    "index": "G1",
+    "name": "Strange Summation",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/G1",
+    "submissionId": 388677442,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913G1-strange-summation"
+  },
+  {
+    "contestId": 591913,
+    "index": "G2",
+    "name": "Intersection",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/G2",
+    "submissionId": 388677508,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913G2-intersection"
+  },
+  {
+    "contestId": 591913,
+    "index": "H",
+    "name": "Division?",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/H",
+    "submissionId": 388677774,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913H-division"
+  },
+  {
+    "contestId": 591913,
+    "index": "J",
+    "name": "Make a triangle!",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "geometry",
+      "math"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/J",
+    "submissionId": 388678399,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913J-make-a-triangle"
+  },
+  {
+    "contestId": 591913,
+    "index": "K",
+    "name": "Multiplication Table",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/K",
+    "submissionId": 388678583,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913K-multiplication-table"
+  },
+  {
+    "contestId": 591913,
+    "index": "L1",
+    "name": "Summation from 1 to N",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/L1",
+    "submissionId": 388678695,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913L1-summation-from-1-to-n"
+  },
+  {
+    "contestId": 591913,
+    "index": "L2",
+    "name": "Draw it.",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/L2",
+    "submissionId": 388678900,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913L2-draw-it"
+  },
+  {
+    "contestId": 591913,
+    "index": "O",
+    "name": "Sum",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/O",
+    "submissionId": 388679301,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913O-sum"
+  },
+  {
+    "contestId": 591913,
+    "index": "P",
+    "name": "Average 2",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/P",
+    "submissionId": 388680011,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913P-average-2"
+  },
+  {
+    "contestId": 591913,
+    "index": "Q",
+    "name": "Calculating Function",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/Q",
+    "submissionId": 388680562,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913Q-calculating-function"
+  },
+  {
+    "contestId": 591913,
+    "index": "R",
+    "name": "Shampoo",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/R",
+    "submissionId": 388682064,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Level Zero 2025 - Public/591913R-shampoo"
+  },
+  {
+    "contestId": 591913,
+    "index": "S",
+    "name": "Tricky Sum",
+    "rating": 900,
+    "tags": [
+      "math"
+    ],
+    "url": "https://codeforces.com/group/vtfsyP8jkN/contest/591913/problem/S",
+    "submissionId": 388684207,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Level Zero 2025 - Public/591913S-tricky-sum"
+  },
+  {
+    "contestId": 438784,
+    "index": "A",
+    "name": "Second Max Element",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/gym/438784/problem/A",
+    "submissionId": 391365175,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 140,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-438784/438784A-second-max-element"
+  },
+  {
+    "contestId": 433597,
+    "index": "A",
+    "name": "Highest Y",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/gym/433597/problem/A",
+    "submissionId": 389928654,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-433597/433597A-highest-y"
+  },
+  {
+    "contestId": 326907,
+    "index": "A",
+    "name": "Timon and Pumbaa",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/A",
+    "submissionId": 390333519,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326907A-timon-and-pumbaa"
+  },
+  {
+    "contestId": 326907,
+    "index": "B",
+    "name": "Drawing `X'",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/B",
+    "submissionId": 390335008,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326907B-drawing-x"
+  },
+  {
+    "contestId": 326907,
+    "index": "C",
+    "name": "Finding Minimums",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/C",
+    "submissionId": 390759227,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326907C-finding-minimums"
+  },
+  {
+    "contestId": 326907,
+    "index": "D",
+    "name": "Range Sum",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/D",
+    "submissionId": 390759992,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 93,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326907D-range-sum"
+  },
+  {
+    "contestId": 326907,
+    "index": "E",
+    "name": "Hady Rides the Train",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/E",
+    "submissionId": 390761260,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326907E-hady-rides-the-train"
+  },
+  {
+    "contestId": 326907,
+    "index": "F",
+    "name": "Break Number",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/F",
+    "submissionId": 390762882,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326907F-break-number"
+  },
+  {
+    "contestId": 326907,
+    "index": "H",
+    "name": "Simple Mod",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/H",
+    "submissionId": 390860935,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Assiut University Training - Newcomers/326907H-simple-mod"
+  },
+  {
+    "contestId": 326175,
+    "index": "A",
+    "name": "Winter Sale",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/A",
+    "submissionId": 386529317,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175A-winter-sale"
+  },
+  {
+    "contestId": 326175,
+    "index": "B",
+    "name": "Memo and Momo",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/B",
+    "submissionId": 386529992,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175B-memo-and-momo"
+  },
+  {
+    "contestId": 326175,
+    "index": "C",
+    "name": "Next Alphabet",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/C",
+    "submissionId": 386530483,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175C-next-alphabet"
+  },
+  {
+    "contestId": 326175,
+    "index": "D",
+    "name": "Ali Baba and Puzzles",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/D",
+    "submissionId": 387617856,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175D-ali-baba-and-puzzles"
+  },
+  {
+    "contestId": 326175,
+    "index": "E",
+    "name": "Interval Sweep",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/E",
+    "submissionId": 387678692,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175E-interval-sweep"
+  },
+  {
+    "contestId": 326175,
+    "index": "F",
+    "name": "Adding Bits",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/F",
+    "submissionId": 387680434,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175F-adding-bits"
+  },
+  {
+    "contestId": 326175,
+    "index": "G",
+    "name": "Katryoshka",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/G",
+    "submissionId": 387686329,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175G-katryoshka"
+  },
+  {
+    "contestId": 326175,
+    "index": "H",
+    "name": "Data Type Guessing",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/H",
+    "submissionId": 387683129,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 78,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Assiut University Training - Newcomers/326175H-data-type-guessing"
+  },
+  {
+    "contestId": 326175,
+    "index": "I",
+    "name": "Lucky Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/I",
+    "submissionId": 387677740,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/326175I-lucky-numbers"
+  },
+  {
+    "contestId": 219432,
+    "index": "A",
+    "name": "1 to N",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/A",
+    "submissionId": 387687381,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Assiut University Training - Newcomers/219432A-1-to-n"
+  },
+  {
+    "contestId": 219432,
+    "index": "B",
+    "name": "Even Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/B",
+    "submissionId": 387687905,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432B-even-numbers"
+  },
+  {
+    "contestId": 219432,
+    "index": "C",
+    "name": "Even, Odd, Positive and Negative",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C",
+    "submissionId": 387688772,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432C-even-odd-positive-and-negative"
+  },
+  {
+    "contestId": 219432,
+    "index": "D",
+    "name": "Fixed Password",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/D",
+    "submissionId": 387688981,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432D-fixed-password"
+  },
+  {
+    "contestId": 219432,
+    "index": "E",
+    "name": "Max",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E",
+    "submissionId": 387689135,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432E-max"
+  },
+  {
+    "contestId": 219432,
+    "index": "F",
+    "name": "Multiplication table",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/F",
+    "submissionId": 387690028,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432F-multiplication-table"
+  },
+  {
+    "contestId": 219432,
+    "index": "G",
+    "name": "Factorial",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/G",
+    "submissionId": 387691079,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432G-factorial"
+  },
+  {
+    "contestId": 219432,
+    "index": "H",
+    "name": "One Prime",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H",
+    "submissionId": 387691467,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432H-one-prime"
+  },
+  {
+    "contestId": 219432,
+    "index": "I",
+    "name": "Palindrome",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/I",
+    "submissionId": 387719879,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Assiut University Training - Newcomers/219432I-palindrome"
+  },
+  {
+    "contestId": 219432,
+    "index": "J",
+    "name": "Primes from 1 to n",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J",
+    "submissionId": 387721261,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432J-primes-from-1-to-n"
+  },
+  {
+    "contestId": 219432,
+    "index": "K",
+    "name": "Divisors",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K",
+    "submissionId": 387721448,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "Assiut University Training - Newcomers/219432K-divisors"
+  },
+  {
+    "contestId": 219432,
+    "index": "L",
+    "name": "GCD",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/L",
+    "submissionId": 387721895,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432L-gcd"
+  },
+  {
+    "contestId": 219432,
+    "index": "M",
+    "name": "Lucky Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/M",
+    "submissionId": 387881985,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432M-lucky-numbers"
+  },
+  {
+    "contestId": 219432,
+    "index": "N",
+    "name": "Numbers Histogram",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/N",
+    "submissionId": 387882329,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432N-numbers-histogram"
+  },
+  {
+    "contestId": 219432,
+    "index": "O",
+    "name": "Pyramid",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/O",
+    "submissionId": 387883943,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432O-pyramid"
+  },
+  {
+    "contestId": 219432,
+    "index": "P",
+    "name": "Shape1",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/P",
+    "submissionId": 387884232,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432P-shape1"
+  },
+  {
+    "contestId": 219432,
+    "index": "Q",
+    "name": "Digits",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Q",
+    "submissionId": 387884771,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432Q-digits"
+  },
+  {
+    "contestId": 219432,
+    "index": "R",
+    "name": "Sequence of Numbers and Sum",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/R",
+    "submissionId": 387886272,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432R-sequence-of-numbers-and-sum"
+  },
+  {
+    "contestId": 219432,
+    "index": "S",
+    "name": "Sum of Consecutive Odd Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/S",
+    "submissionId": 387892276,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432S-sum-of-consecutive-odd-numbers"
+  },
+  {
+    "contestId": 219432,
+    "index": "T",
+    "name": "Shape2",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/T",
+    "submissionId": 388499673,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432T-shape2"
+  },
+  {
+    "contestId": 219432,
+    "index": "U",
+    "name": "Some Sums",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/U",
+    "submissionId": 388501745,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432U-some-sums"
+  },
+  {
+    "contestId": 219432,
+    "index": "V",
+    "name": "PUM",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/V",
+    "submissionId": 387939363,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432V-pum"
+  },
+  {
+    "contestId": 219432,
+    "index": "W",
+    "name": "Shape3",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/W",
+    "submissionId": 388500404,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432W-shape3"
+  },
+  {
+    "contestId": 219432,
+    "index": "X",
+    "name": "Convert To Decimal 2",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/X",
+    "submissionId": 389692653,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432X-convert-to-decimal-2"
+  },
+  {
+    "contestId": 219432,
+    "index": "Y",
+    "name": "Easy Fibonacci",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Y",
+    "submissionId": 389692429,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432Y-easy-fibonacci"
+  },
+  {
+    "contestId": 219432,
+    "index": "Z",
+    "name": "Three Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z",
+    "submissionId": 389693526,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219432Z-three-numbers"
+  },
+  {
+    "contestId": 219158,
+    "index": "A",
+    "name": "Say Hello With C++",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/A",
+    "submissionId": 385503516,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158A-say-hello-with-c"
+  },
+  {
+    "contestId": 219158,
+    "index": "B",
+    "name": "Basic Data Types",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/B",
+    "submissionId": 385504271,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158B-basic-data-types"
+  },
+  {
+    "contestId": 219158,
+    "index": "C",
+    "name": "Simple Calculator",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/C",
+    "submissionId": 385504990,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158C-simple-calculator"
+  },
+  {
+    "contestId": 219158,
+    "index": "D",
+    "name": "Difference",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/D",
+    "submissionId": 385505467,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158D-difference"
+  },
+  {
+    "contestId": 219158,
+    "index": "E",
+    "name": "Area of a Circle",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/E",
+    "submissionId": 385506916,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158E-area-of-a-circle"
+  },
+  {
+    "contestId": 219158,
+    "index": "F",
+    "name": "Digits Summation",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F",
+    "submissionId": 385508478,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158F-digits-summation"
+  },
+  {
+    "contestId": 219158,
+    "index": "G",
+    "name": "Summation from 1 to N",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G",
+    "submissionId": 385512225,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158G-summation-from-1-to-n"
+  },
+  {
+    "contestId": 219158,
+    "index": "H",
+    "name": "Two numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H",
+    "submissionId": 385981042,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158H-two-numbers"
+  },
+  {
+    "contestId": 219158,
+    "index": "I",
+    "name": "Welcome for you with Conditions",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I",
+    "submissionId": 385516811,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158I-welcome-for-you-with-conditions"
+  },
+  {
+    "contestId": 219158,
+    "index": "J",
+    "name": "Multiples",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J",
+    "submissionId": 385519140,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158J-multiples"
+  },
+  {
+    "contestId": 219158,
+    "index": "K",
+    "name": "Max and Min",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K",
+    "submissionId": 385631715,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158K-max-and-min"
+  },
+  {
+    "contestId": 219158,
+    "index": "L",
+    "name": "The Brothers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L",
+    "submissionId": 385980811,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158L-the-brothers"
+  },
+  {
+    "contestId": 219158,
+    "index": "M",
+    "name": "Capital or Small or Digit",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/M",
+    "submissionId": 385983323,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158M-capital-or-small-or-digit"
+  },
+  {
+    "contestId": 219158,
+    "index": "N",
+    "name": "Char",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N",
+    "submissionId": 385983234,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158N-char"
+  },
+  {
+    "contestId": 219158,
+    "index": "O",
+    "name": "Calculator",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/O",
+    "submissionId": 385984419,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158O-calculator"
+  },
+  {
+    "contestId": 219158,
+    "index": "P",
+    "name": "First digit !",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P",
+    "submissionId": 385986080,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158P-first-digit"
+  },
+  {
+    "contestId": 219158,
+    "index": "Q",
+    "name": "Coordinates of a Point",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Q",
+    "submissionId": 385987287,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158Q-coordinates-of-a-point"
+  },
+  {
+    "contestId": 219158,
+    "index": "R",
+    "name": "Age in Days",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/R",
+    "submissionId": 386517881,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158R-age-in-days"
+  },
+  {
+    "contestId": 219158,
+    "index": "S",
+    "name": "Interval",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/S",
+    "submissionId": 385991437,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158S-interval"
+  },
+  {
+    "contestId": 219158,
+    "index": "T",
+    "name": "Sort Numbers",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T",
+    "submissionId": 386154596,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158T-sort-numbers"
+  },
+  {
+    "contestId": 219158,
+    "index": "U",
+    "name": "Float or int",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U",
+    "submissionId": 386143362,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158U-float-or-int"
+  },
+  {
+    "contestId": 219158,
+    "index": "V",
+    "name": "Comparison",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V",
+    "submissionId": 385997131,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158V-comparison"
+  },
+  {
+    "contestId": 219158,
+    "index": "W",
+    "name": "Mathematical Expression",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W",
+    "submissionId": 386145554,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158W-mathematical-expression"
+  },
+  {
+    "contestId": 219158,
+    "index": "X",
+    "name": "Two intervals",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X",
+    "submissionId": 386520107,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158X-two-intervals"
+  },
+  {
+    "contestId": 219158,
+    "index": "Y",
+    "name": "The last 2 digits",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y",
+    "submissionId": 386043429,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158Y-the-last-2-digits"
+  },
+  {
+    "contestId": 219158,
+    "index": "Z",
+    "name": "Hard Compare",
+    "tags": [
+      "untagged"
+    ],
+    "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z",
+    "submissionId": 386146333,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "Assiut University Training - Newcomers/219158Z-hard-compare"
+  },
+  {
+    "contestId": 2254,
+    "index": "A",
+    "name": "Riptide",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/contest/2254/problem/A",
+    "submissionId": 385656785,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-2254/2254A-riptide"
+  },
+  {
+    "contestId": 2241,
+    "index": "A",
+    "name": "Divide and Conquer",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "url": "https://codeforces.com/contest/2241/problem/A",
+    "submissionId": 380720263,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-2241/2241A-divide-and-conquer"
+  },
+  {
+    "contestId": 2227,
+    "index": "A",
+    "name": "Koshary",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2227/problem/A",
+    "submissionId": 373154221,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-2227/2227A-koshary"
+  },
+  {
+    "contestId": 2044,
+    "index": "B",
+    "name": "Normal Problem",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/2044/problem/B",
+    "submissionId": 389369203,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-2044/2044B-normal-problem"
+  },
+  {
+    "contestId": 1971,
+    "index": "A",
+    "name": "My First Sorting Problem",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/contest/1971/problem/A",
+    "submissionId": 389369107,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-1971/1971A-my-first-sorting-problem"
+  },
+  {
+    "contestId": 1903,
+    "index": "A",
+    "name": "Halloumi Boxes",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/contest/1903/problem/A",
+    "submissionId": 372380646,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-1903/1903A-halloumi-boxes"
+  },
+  {
+    "contestId": 1901,
+    "index": "A",
+    "name": "Line Trip",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/1901/problem/A",
+    "submissionId": 381765442,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-1901/1901A-line-trip"
+  },
+  {
+    "contestId": 1900,
+    "index": "A",
+    "name": "Cover in Water",
+    "rating": 800,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/1900/problem/A",
+    "submissionId": 383773298,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-1900/1900A-cover-in-water"
+  },
+  {
+    "contestId": 1899,
+    "index": "A",
+    "name": "Game with Integers",
+    "rating": 800,
+    "tags": [
+      "games",
+      "math",
+      "number theory"
+    ],
+    "url": "https://codeforces.com/contest/1899/problem/A",
+    "submissionId": 384009628,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 31,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-1899/1899A-game-with-integers"
+  },
+  {
+    "contestId": 1676,
+    "index": "B",
+    "name": "Equal Candies",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/contest/1676/problem/B",
+    "submissionId": 389369067,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-1676/1676B-equal-candies"
+  },
+  {
+    "contestId": 816,
+    "index": "B",
+    "name": "Karen and Coffee",
+    "rating": 1400,
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/contest/816/problem/B",
+    "submissionId": 389362839,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "timeConsumedMillis": 218,
+    "memoryConsumedBytes": 24064000,
+    "relativeFolder": "contest-816/816B-karen-and-coffee"
+  },
+  {
+    "contestId": 617,
+    "index": "A",
+    "name": "Elephant",
+    "rating": 800,
+    "tags": [
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/617/problem/A",
+    "submissionId": 380159566,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-617/617A-elephant"
+  },
+  {
+    "contestId": 282,
+    "index": "A",
+    "name": "Bit++",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/contest/282/problem/A",
+    "submissionId": 371095047,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-282/282A-bit"
+  },
+  {
+    "contestId": 271,
+    "index": "A",
+    "name": "Beautiful Year",
+    "rating": 800,
+    "tags": [
+      "brute force"
+    ],
+    "url": "https://codeforces.com/contest/271/problem/A",
+    "submissionId": 380164704,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-271/271A-beautiful-year"
+  },
+  {
+    "contestId": 263,
+    "index": "A",
+    "name": "Beautiful Matrix",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/contest/263/problem/A",
+    "submissionId": 371126503,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-263/263A-beautiful-matrix"
+  },
+  {
+    "contestId": 236,
+    "index": "A",
+    "name": "Boy or Girl",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/236/problem/A",
+    "submissionId": 371926347,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-236/236A-boy-or-girl"
+  },
+  {
+    "contestId": 231,
+    "index": "A",
+    "name": "Team",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "greedy"
+    ],
+    "url": "https://codeforces.com/contest/231/problem/A",
+    "submissionId": 371093814,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 124,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-231/231A-team"
+  },
+  {
+    "contestId": 158,
+    "index": "A",
+    "name": "Next Round",
+    "rating": 800,
+    "tags": [
+      "*special",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/contest/158/problem/A",
+    "submissionId": 371124401,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-158/158A-next-round"
+  },
+  {
+    "contestId": 118,
+    "index": "A",
+    "name": "String Task",
+    "rating": 1000,
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/118/problem/A",
+    "submissionId": 372291784,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-118/118A-string-task"
+  },
+  {
+    "contestId": 112,
+    "index": "A",
+    "name": "Petya and Strings",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/112/problem/A",
+    "submissionId": 371139848,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-112/112A-petya-and-strings"
+  },
+  {
+    "contestId": 110,
+    "index": "A",
+    "name": "Nearly Lucky Number",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "url": "https://codeforces.com/contest/110/problem/A",
+    "submissionId": 380161694,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-110/110A-nearly-lucky-number"
+  },
+  {
+    "contestId": 71,
+    "index": "A",
+    "name": "Way Too Long Words",
+    "rating": 800,
+    "tags": [
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/71/problem/A",
+    "submissionId": 371089742,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-71/71A-way-too-long-words"
+  },
+  {
+    "contestId": 50,
+    "index": "A",
+    "name": "Domino piling",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/50/problem/A",
+    "submissionId": 373495971,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 92,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-50/50A-domino-piling"
+  },
+  {
+    "contestId": 25,
+    "index": "A",
+    "name": "IQ test",
+    "rating": 1300,
+    "tags": [
+      "brute force"
+    ],
+    "url": "https://codeforces.com/contest/25/problem/A",
+    "submissionId": 370832515,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 62,
+    "memoryConsumedBytes": 102400,
+    "relativeFolder": "contest-25/25A-iq-test"
+  },
+  {
+    "contestId": 1,
+    "index": "A",
+    "name": "Theatre Square",
+    "rating": 1000,
+    "tags": [
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/1/problem/A",
+    "submissionId": 372291275,
+    "language": "C++17 (GCC 7-32)",
+    "timeConsumedMillis": 46,
+    "memoryConsumedBytes": 0,
+    "relativeFolder": "contest-1/1A-theatre-square"
+  }
+]

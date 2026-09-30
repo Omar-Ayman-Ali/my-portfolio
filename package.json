@@ -1,0 +1,15 @@
+{
+  "name": "omar-ayman-ali-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio and Codeforces problems archive for Omar Ayman Ali. Static site, GSAP + Lenis motion, live Codeforces and GitHub data.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.mjs",
+    "dev": "npx --yes serve@14 -l 5173 .",
+    "start": "npm run fetch && npm run dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

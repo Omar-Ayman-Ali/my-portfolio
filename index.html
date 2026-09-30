@@ -1,1850 +1,268 @@
-<!DOCTYPE html>
-<html lang="en" style="background-color: #050505;">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://codeforces.com https://api.github.com; object-src 'none'; base-uri 'self'; form-action 'self';">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>Ain Shams AI &amp; C++ Systems Portfolio | High-Performance Computing</title>
-  <meta name="description" content="Ain Shams University AI &amp; C++ Systems portfolio of Omar Ayman Ali (Itz_Arslan). High-performance algorithms, 200+ Codeforces verified solutions, and low-latency architectures.">
-  <link rel="canonical" href="https://omar-ayman-ali.github.io/my-portfolio/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omar Ayman Ali — C++ systems &amp; competitive programming</title>
+<meta name="description" content="Portfolio of Omar Ayman Ali, an Artificial Intelligence student at National Ain Shams University working in C++ system architecture and competitive programming. Live Codeforces and GitHub data.">
+<meta name="author" content="Omar Ayman Ali">
+<meta name="theme-color" content="#f3f2f2">
+<link rel="canonical" href="https://omar-ayman-ali.github.io/">
 
-  <!-- Favicon / Brand Identity -->
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="alternate icon" href="favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Omar Ayman Ali — C++ systems &amp; competitive programming">
+<meta property="og:description" content="Algorithms over abstractions. Efficiency over bloat. Live Codeforces and GitHub data.">
+<meta name="twitter:card" content="summary_large_image">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://omar-ayman-ali.github.io/my-portfolio/">
-  <meta property="og:title" content="Ain Shams AI &amp; C++ Systems Portfolio | Omar Ayman Ali">
-  <meta property="og:description" content="High-performance systems engineering, algorithmic problem solving, and C++ architectures by Omar Ayman Ali (Itz_Arslan). 200+ Codeforces verified solutions.">
-  <meta property="og:image" content="https://omar-ayman-ali.github.io/my-portfolio/favicon.svg">
-  <meta property="og:site_name" content="Omar Ayman Ali Portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://codeforces.com" crossorigin>
+<link rel="preconnect" href="https://api.github.com" crossorigin>
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://omar-ayman-ali.github.io/my-portfolio/">
-  <meta name="twitter:title" content="Ain Shams AI &amp; C++ Systems Portfolio | Omar Ayman Ali">
-  <meta name="twitter:description" content="High-performance systems engineering, algorithmic problem solving, and C++ architectures by Omar Ayman Ali (Itz_Arslan).">
-  <meta name="twitter:image" content="https://omar-ayman-ali.github.io/my-portfolio/favicon.svg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="mask-icon" href="assets/img/favicon.svg" color="#ec3013">
 
-  <!-- Structured Data: Person, ProfilePage, WebSite (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://omar-ayman-ali.github.io/my-portfolio/#person",
-        "name": "Omar Ayman Ali",
-        "alternateName": ["Omar Ali", "Itz_Arslan"],
-        "jobTitle": "C++ Systems & AI Software Engineer",
-        "description": "C++ Systems and Competitive Programming specialist at Ain Shams University with 200+ Codeforces algorithmic solutions, high-performance computing, and AI architectures.",
-        "url": "https://omar-ayman-ali.github.io/my-portfolio/",
-        "image": "https://omar-ayman-ali.github.io/my-portfolio/favicon.svg",
-        "alumniOf": {
-          "@type": "EducationalOrganization",
-          "name": "Ain Shams University",
-          "url": "https://www.asu.edu.eg/"
-        },
-        "knowsAbout": [
-          "C++20",
-          "Competitive Programming",
-          "Algorithms & Data Structures",
-          "High-Performance Computing",
-          "Artificial Intelligence"
-        ],
-        "sameAs": [
-          "https://codeforces.com/profile/Itz_Arslan",
-          "https://github.com/Omar-Ayman-Ali",
-          "https://www.linkedin.com/in/omar-ayman-el-sayed/"
-        ]
-      },
-      {
-        "@type": "ProfilePage",
-        "@id": "https://omar-ayman-ali.github.io/my-portfolio/#profilepage",
-        "url": "https://omar-ayman-ali.github.io/my-portfolio/",
-        "name": "Ain Shams AI & C++ Systems Portfolio | High-Performance Computing",
-        "isPartOf": {
-          "@type": "WebSite",
-          "@id": "https://omar-ayman-ali.github.io/my-portfolio/#website",
-          "name": "Omar Ayman Ali Portfolio",
-          "url": "https://omar-ayman-ali.github.io/my-portfolio/"
-        },
-        "mainEntity": {
-          "@id": "https://omar-ayman-ali.github.io/my-portfolio/#person"
-        }
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Zero White Flash Critical Style -->
-  <style>
-    html, body {
-      background-color: #050505 !important;
-      color: #EDEDED !important;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/site.css">
 
-  <!-- Google Fonts: Space Grotesk & Fira Code -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Lenis Core Styles (Inlined to eliminate render-blocking network roundtrip) -->
-  <style>html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}.lenis.lenis-stopped{overflow:clip}.lenis.lenis-smooth iframe{pointer-events:none}</style>
-
-  <!-- Project Stylesheets -->
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/SplitText.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@1.49.0/dist/umd/lucide.min.js" defer></script>
+<script type="module" src="assets/js/portfolio.js"></script>
 </head>
-<body style="background-color: #050505;">
 
-  <!-- Cinematic One-Time Intro Sequence Overlay -->
-  <div id="site-intro-overlay" class="site-intro-overlay" role="dialog" aria-modal="true" aria-label="Intro Sequence">
-    <!-- Phase 1: Interactive Box Grid -->
-    <div id="intro-grid" class="intro-grid" aria-hidden="true"></div>
+<body>
 
-    <!-- Phase 2: SplitText Welcome Typography -->
-    <div id="intro-text-container" class="intro-text-container" aria-live="polite">
-      <div class="intro-line intro-line-1">Welcome,</div>
-      <div class="intro-line intro-line-2">to <span class="intro-accent">Arslan</span>'s website</div>
+<!-- Compile-sequence preloader. Removed outright when motion is off. -->
+<div class="intro" data-intro aria-hidden="true">
+  <div class="intro__body">
+    <span class="intro__kicker label" data-intro-kicker><span class="mark"></span>Compiling portfolio · g++ -O3 -std=c++20</span>
+    <div class="intro__name">
+      <div class="intro__mask"><div data-intro-word>Omar</div></div>
+      <div class="intro__mask"><div data-intro-word class="accent">Ayman Ali.</div></div>
     </div>
-
-    <!-- Phase 3: Hacker Matrix Monospace Rain & Telemetry -->
-    <div id="intro-hacker-rain" class="intro-hacker-rain" aria-hidden="true">
-      <canvas id="intro-rain-canvas" class="intro-rain-canvas"></canvas>
-    </div>
-    <div id="intro-status-bar" class="intro-status-bar" aria-hidden="true">
-      <span class="intro-status-pulse"></span>
-      <span id="intro-status-text" class="intro-status-text">INITIALIZING CORE...</span>
-    </div>
-
-    <!-- Phase 4: Exit Flash Layer -->
-    <div id="intro-flash-layer" class="intro-flash-layer" aria-hidden="true"></div>
-
-    <!-- Skip Affordance -->
-    <button id="intro-skip-btn" class="intro-skip-btn" aria-label="Skip Intro Animation" title="Skip Intro (Esc)" data-magnetic>
-      <span class="intro-skip-text">SKIP</span>
-      <span class="intro-skip-key">ESC</span>
-    </button>
   </div>
+  <div class="intro__foot">
+    <div class="intro__status">
+      <span class="intro__log" data-intro-log>Linking modules</span>
+      <span class="intro__count" data-intro-count>000</span>
+    </div>
+    <div class="intro__rail"><div class="intro__bar" data-intro-bar></div></div>
+  </div>
+</div>
 
-  <!-- 2D Algorithmic Node Graph Canvas Background (z-index: -1, opacity: 0.35) -->
-  <canvas id="graph-canvas" class="graph-canvas" aria-hidden="true"></canvas>
+<nav class="nav" data-nav>
+  <span class="nav-brand"><span class="mark"></span>Omar Ali</span>
+  <a href="#about">About</a>
+  <a href="#work">Capabilities</a>
+  <a href="#codeforces">Codeforces</a>
+  <a href="#github">GitHub</a>
+  <a href="archive.html">Archive</a>
+  <a href="#projects">Projects</a>
+  <a class="btn btn-primary btn-inline" data-magnet href="#contact">Contact <i data-lucide="arrow-up-right"></i></a>
+</nav>
 
-  <!-- Custom 3-Layer Magnetic Spring Glow Cursor -->
-  <div class="custom-cursor-glow" aria-hidden="true"></div>
-  <div class="custom-cursor-dot" aria-hidden="true"></div>
-  <div class="custom-cursor-ring" aria-hidden="true"></div>
+<section id="hero" class="hero">
+  <div class="shell hero__inner">
+    <div>
+      <span class="kicker" data-hero-kicker><i data-lucide="map-pin"></i>AI student · C++ systems · Cairo</span>
+      <h1 class="display">
+        <span class="line-mask"><span data-line>Algorithms over</span></span>
+        <span class="line-mask"><span data-line>abstractions.</span></span>
+        <span class="line-mask"><span data-line class="accent">Efficiency over bloat.<span class="caret" data-cursor></span></span></span>
+      </h1>
+      <p class="lead" data-hero-sub>I’m Omar Ayman Ali, a second-year Artificial Intelligence student at National Ain Shams University, focused on C++ system architecture and competitive problem-solving.</p>
+      <div class="cta-row" data-hero-cta>
+        <a class="btn btn-primary btn-inline" data-magnet data-cf-profile href="https://codeforces.com/profile/Itz_Arslan" target="_blank" rel="noopener">
+          <i data-lucide="trophy"></i><span data-cf-solved-cta>Codeforces</span>
+        </a>
+        <a class="btn btn-ghost btn-inline" href="#projects">Selected projects <i data-lucide="arrow-down-right"></i></a>
+      </div>
+    </div>
 
-  <!-- GSAP Hardware-Accelerated Right-Edge Scrubber -->
-  <aside class="edge-scrubber-track" aria-hidden="true">
-    <div class="edge-scrubber-bar"></div>
-  </aside>
+    <figure class="code-figure" data-hero-fig>
+      <figcaption>
+        <span class="btn-inline"><i data-lucide="file-code-2"></i>segment_tree.cpp</span>
+        <span style="color: var(--color-accent-700)">C++20 · -O3</span>
+      </figcaption>
+      <pre><div class="ln"><span class="no">1</span><code><span class="t-cmt">// point update · O(log N)</span></code></div><div class="ln"><span class="no">2</span><code><span class="t-key">template</span>&lt;<span class="t-key">typename</span> <span class="t-typ">T</span>&gt;</code></div><div class="ln"><span class="no">3</span><code><span class="t-key">class</span> <span class="t-typ">SegmentTree</span> {</code></div><div class="ln"><span class="no">4</span><code>  <span class="t-key">int</span> <span class="t-var">n</span>; <span class="t-typ">std</span>::<span class="t-typ">vector</span>&lt;<span class="t-typ">T</span>&gt; <span class="t-var">tree</span>;</code></div><div class="ln"><span class="no">5</span><code><span class="t-key">public</span>:</code></div><div class="ln"><span class="no">6</span><code>  <span class="t-key">void</span> <span class="t-fn">update</span>(<span class="t-key">int</span> <span class="t-var">node</span>, <span class="t-key">int</span> <span class="t-var">l</span>, <span class="t-key">int</span> <span class="t-var">r</span>, <span class="t-key">int</span> <span class="t-var">idx</span>, <span class="t-typ">T</span> <span class="t-var">val</span>) {</code></div><div class="ln"><span class="no">7</span><code>    <span class="t-ctl">if</span> (<span class="t-var">l</span> == <span class="t-var">r</span>) { <span class="t-var">tree</span>[<span class="t-var">node</span>] = <span class="t-var">val</span>; <span class="t-ctl">return</span>; }</code></div><div class="ln"><span class="no">8</span><code>    <span class="t-key">int</span> <span class="t-var">mid</span> = (<span class="t-var">l</span> + <span class="t-var">r</span>) &gt;&gt; <span class="t-num">1</span>;</code></div><div class="ln"><span class="no">9</span><code>    <span class="t-ctl">if</span> (<span class="t-var">idx</span> &lt;= <span class="t-var">mid</span>) <span class="t-fn">update</span>(<span class="t-var">node</span> &lt;&lt; <span class="t-num">1</span>, <span class="t-var">l</span>, <span class="t-var">mid</span>, <span class="t-var">idx</span>, <span class="t-var">val</span>);</code></div><div class="ln"><span class="no">10</span><code>    <span class="t-ctl">else</span> <span class="t-fn">update</span>(<span class="t-var">node</span> &lt;&lt; <span class="t-num">1</span> | <span class="t-num">1</span>, <span class="t-var">mid</span> + <span class="t-num">1</span>, <span class="t-var">r</span>, <span class="t-var">idx</span>, <span class="t-var">val</span>);</code></div><div class="ln"><span class="no">11</span><code>    <span class="t-var">tree</span>[<span class="t-var">node</span>] = <span class="t-var">tree</span>[<span class="t-var">node</span> &lt;&lt; <span class="t-num">1</span>] + <span class="t-var">tree</span>[<span class="t-var">node</span> &lt;&lt; <span class="t-num">1</span> | <span class="t-num">1</span>];</code></div><div class="ln"><span class="no">12</span><code>  }</code></div><div class="ln"><span class="no">13</span><code>};</code></div></pre>
+      <div class="code-figure__metrics">
+        <div><div class="k">Latency</div><div class="v" style="color: oklch(0.52 0.14 160)">0.04 ms</div></div>
+        <div><div class="k">Memory</div><div class="v" style="color: oklch(0.58 0.17 50)">3.8 MB</div></div>
+        <div><div class="k">Complexity</div><div class="v" style="color: oklch(0.5 0.2 330)">O(log N)</div></div>
+      </div>
+    </figure>
+  </div>
+</section>
 
-  <!-- Minimalist Corner Telemetry Tag (Top-Right) -->
-  <aside class="corner-telemetry-tag" aria-label="System Telemetry">
-    <span class="telemetry-pulse" aria-hidden="true"></span>
-    <span class="telemetry-label">SYS_INDEX:</span>
-    <span id="telemetry-progress-val" class="telemetry-val">000%</span>
-  </aside>
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track" data-marquee></div>
+</div>
 
+<main class="shell">
 
+  <section aria-label="At a glance" class="stat-grid" data-stats></section>
 
-  <!-- Main Content Container -->
-  <main class="page-container">
+  <hr class="hr" data-rule>
 
-    <!-- Section 01: Hero Section (01 // HERO) -->
-    <section id="hero" class="hero-section">
-      <div class="hero-content">
-        <!-- Coordinate Chip -->
-        <div class="hero-chip">
-          <span class="chip-status-dot"></span>
-          <span class="chip-code">ADDR: 0x7FFE62A1 // THREADS: C++20 // OMAR ALI</span>
-        </div>
+  <section id="about" class="section about">
+    <div data-reveal>
+      <span class="eyebrow">01 — About</span>
+      <h2 class="h2">Foundational C++ architectures before surface-level frameworks.</h2>
+    </div>
+    <div class="prose" data-reveal>
+      <p>I study Artificial Intelligence at National Ain Shams University, with an emphasis on discrete mathematics and systems. Most of my time goes into C++: data structures, algorithms, and the competitive programming that keeps it honest.</p>
+      <p>Frameworks change; asymptotic bounds don’t. I’m building toward mastery one submission at a time.</p>
+      <div class="facts" data-facts></div>
+    </div>
+  </section>
 
-        <!-- Headline with GSAP Clip-Path Reveal Masks -->
-        <h1 class="hero-headline" aria-label="Moving through the mind of a programmer">
-          <span class="headline-line">
-            <span class="headline-inner">MOVING THROUGH THE</span>
-          </span>
-          <span class="headline-line highlight-green">
-            <span class="headline-inner">MIND OF A PROGRAMMER</span>
-          </span>
-        </h1>
+  <hr class="hr" data-rule>
 
-        <!-- Subtext (Strictly <= 20 words) -->
-        <p class="hero-subtext">
-          Omar Ali — 2nd-Year AI Student @ National Ain Shams University. Focused on C++ system architecture and competitive problem-solving.
-        </p>
+  <section id="work" class="section--head">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">02 — What I do</span>
+        <h2 class="h2">Two core capabilities.</h2>
+      </div>
+    </div>
+    <div class="cell-grid cell-grid--2" data-pillars></div>
+  </section>
 
-        <!-- Action Buttons -->
-        <div class="hero-actions">
-          <a href="#codeforces" class="btn-primary" data-magnetic>VIEW CODEFORCES (219 SOLVED)</a>
-          <a href="#projects" class="btn-secondary" data-magnetic>EXPLORE GITHUB PROJECTS</a>
+  <hr class="hr" data-rule>
+
+  <section id="arsenal" class="section">
+    <div data-reveal>
+      <span class="eyebrow">03 — Technical arsenal</span>
+      <h2 class="h2" style="margin-bottom: 40px">Tools I reach for.</h2>
+    </div>
+    <div class="cell-grid cell-grid--3" data-arsenal></div>
+  </section>
+
+  <hr class="hr" data-rule>
+
+  <section id="codeforces" class="section">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">04 — Competitive programming</span>
+        <h2 class="h2">Codeforces, by the numbers.</h2>
+      </div>
+      <div class="cta-row" style="margin: 0">
+        <a class="btn btn-primary btn-inline" href="archive.html"><i data-lucide="archive"></i>Solved problems archive</a>
+        <a class="btn btn-secondary btn-inline" data-cf-profile href="https://codeforces.com/profile/Itz_Arslan" target="_blank" rel="noopener">
+          <i data-lucide="trophy"></i><span data-cf-handle>Codeforces</span> <i data-lucide="arrow-up-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="cf-grid">
+      <div class="kv-grid" data-cf-stats></div>
+      <figure class="chart" data-chart data-reveal>
+        <figcaption>
+          <span class="btn-inline"><i data-lucide="trending-up"></i>Rating trajectory</span>
+          <span style="color: var(--color-accent-700)" data-cf-target>Target</span>
+        </figcaption>
+        <div class="bars" data-cf-bars></div>
+        <div class="bar-labels" data-cf-bar-labels></div>
+      </figure>
+    </div>
+
+    <div class="heat-box heat-box--cf" data-heat-box>
+      <div class="heat-box__head">
+        <span class="heat-box__title"><i data-lucide="calendar-days"></i>Problems solved · last 12 months</span>
+        <span class="heat-readout" data-heat-readout>Hover a day</span>
+        <span class="heat-legend">Less<span data-swatch style="background: var(--h0)"></span><span data-swatch style="background: var(--h1)"></span><span data-swatch style="background: var(--h2)"></span><span data-swatch style="background: var(--h3)"></span><span data-swatch style="background: var(--h4)"></span>More</span>
+      </div>
+      <div class="heat-scroll">
+        <div class="heat-layout">
+          <span></span>
+          <div class="heat-months" data-heat-months></div>
+          <div class="heat-days"><span></span><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span></div>
+          <div class="heat-grid" data-heat></div>
         </div>
       </div>
+      <div class="heat-stats" data-heat-stats></div>
+    </div>
+  </section>
 
-      <!-- Right Column: Interactive C++ Algorithmic Terminal Window -->
-      <div class="hero-terminal-container">
-        <div class="hero-terminal-glow" aria-hidden="true"></div>
-        <div class="hero-terminal-window code-snap-card">
-          <div class="terminal-header">
-            <div class="terminal-controls">
-              <span class="terminal-dot"></span>
-              <span class="terminal-dot"></span>
-              <span class="terminal-dot"></span>
-            </div>
-            <span id="terminal-filename" class="terminal-title">segment_tree.cpp</span>
-            <span>C++20 · -O3</span>
-          </div>
+  <hr class="hr" data-rule>
 
-          <div id="terminal-code-body" class="terminal-body">
-            <div class="code-line">
-              <span class="line-num">1</span>
-              <span class="code-text"><span class="syntax-kw">template</span>&lt;<span class="syntax-kw">typename</span> <span class="syntax-type">T</span>&gt;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">2</span>
-              <span class="code-text"><span class="syntax-kw">class</span> <span class="syntax-type">SegmentTree</span> {</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">3</span>
-              <span class="code-text">  <span class="syntax-type">int</span> n; <span class="syntax-type">std::vector</span>&lt;<span class="syntax-type">T</span>&gt; tree;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">4</span>
-              <span class="code-text"><span class="syntax-kw">public:</span></span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">5</span>
-              <span class="code-text">  <span class="syntax-kw">void</span> <span class="syntax-func">update</span>(<span class="syntax-type">int</span> node, <span class="syntax-type">int</span> l, <span class="syntax-type">int</span> r, <span class="syntax-type">int</span> idx, <span class="syntax-type">T</span> val) {</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">6</span>
-              <span class="code-text">    <span class="syntax-kw">if</span> (l == r) { tree[node] = val; <span class="syntax-kw">return</span>; }</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">7</span>
-              <span class="code-text">    <span class="syntax-type">int</span> mid = (l + r) &gt;&gt; <span class="syntax-type">1</span>;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">8</span>
-              <span class="code-text">    <span class="syntax-kw">if</span> (idx &lt;= mid) update(node &lt;&lt; <span class="syntax-type">1</span>, l, mid, idx, val);</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">9</span>
-              <span class="code-text">    <span class="syntax-kw">else</span> update(node &lt;&lt; <span class="syntax-type">1</span> | <span class="syntax-type">1</span>, mid + <span class="syntax-type">1</span>, r, idx, val);</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">10</span>
-              <span class="code-text">    tree[node] = tree[node &lt;&lt; <span class="syntax-type">1</span>] + tree[node &lt;&lt; <span class="syntax-type">1</span> | <span class="syntax-type">1</span>];</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">11</span>
-              <span class="code-text">  }</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">12</span>
-              <span class="code-text">};</span>
-            </div>
-          </div>
+  <section id="github" class="section">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">05 — GitHub</span>
+        <h2 class="h2">Codebase activity.</h2>
+      </div>
+      <a class="btn btn-secondary btn-inline" data-gh-profile href="https://github.com/Omar-Ayman-Ali" target="_blank" rel="noopener">
+        <i data-lucide="git-branch"></i><span data-gh-handle>GitHub</span> <i data-lucide="arrow-up-right"></i>
+      </a>
+    </div>
 
-          <div class="terminal-benchmark-box">
-            <div>
-              <div class="bench-metric">LATENCY</div>
-              <div id="bench-time" class="bench-val">0.04 ms</div>
-            </div>
-            <div>
-              <div class="bench-metric">MEMORY</div>
-              <div id="bench-mem" class="bench-val">3.8 MB</div>
-            </div>
-            <div>
-              <div class="bench-metric">COMPLEXITY</div>
-              <div id="bench-complexity" class="bench-val">O(log N)</div>
-            </div>
-          </div>
+    <div class="langs" data-reveal>
+      <div class="langs__head"><span>Language concentration</span><span style="color: var(--color-accent-700)" data-gh-repo-count>Public repositories</span></div>
+      <div class="langs__bar" data-langs-bar></div>
+      <div class="langs__key" data-langs-key></div>
+    </div>
+
+    <div class="heat-box heat-box--gh" data-heat-box>
+      <div class="heat-box__head">
+        <span class="heat-box__title"><i data-lucide="calendar-days"></i>Contributions · last 12 months</span>
+        <span class="heat-readout" data-heat-readout>Hover a day</span>
+        <span class="heat-legend">Less<span data-swatch style="background: var(--h0)"></span><span data-swatch style="background: var(--h1)"></span><span data-swatch style="background: var(--h2)"></span><span data-swatch style="background: var(--h3)"></span><span data-swatch style="background: var(--h4)"></span>More</span>
+      </div>
+      <div class="heat-scroll">
+        <div class="heat-layout">
+          <span></span>
+          <div class="heat-months" data-heat-months></div>
+          <div class="heat-days"><span></span><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span></div>
+          <div class="heat-grid" data-heat></div>
         </div>
       </div>
-    </section>
-
-    <!-- Section 02: Academic & Systems About Section (02 // ABOUT) -->
-    <section id="about" class="about-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">ALGORITHMS OVER ABSTRACTIONS. EFFICIENCY OVER BLOAT.</h2>
-        <span class="section-tag">ACADEMIC // PHILOSOPHY</span>
-      </div>
-
-      <div class="about-layout">
-        <!-- Left: Terminal Card (omar_ali.cpp) -->
-        <div class="about-terminal-card code-snap-card">
-          <div class="terminal-header">
-            <div class="terminal-controls">
-              <span class="terminal-dot"></span>
-              <span class="terminal-dot"></span>
-              <span class="terminal-dot"></span>
-            </div>
-            <span class="terminal-title">omar_ali.cpp</span>
-            <span>FCIS · Y2</span>
-          </div>
-          <div class="terminal-body">
-            <div class="code-line">
-              <span class="line-num">1</span>
-              <span class="code-text"><span class="syntax-kw">#include</span> <span class="syntax-type">&lt;systems/intelligence.hpp&gt;</span></span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">2</span>
-              <span class="code-text"><span class="syntax-kw">struct</span> <span class="syntax-type">OmarAli</span> {</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">3</span>
-              <span class="code-text">  <span class="syntax-type">std::string</span> institution = <span class="syntax-func">"National Ain Shams University"</span>;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">4</span>
-              <span class="code-text">  <span class="syntax-type">std::string</span> department  = <span class="syntax-func">"Artificial Intelligence"</span>;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">5</span>
-              <span class="code-text">  <span class="syntax-type">int</span>         standing    = <span class="syntax-type">2</span>; <span class="syntax-comment">// Year 2 Specialist</span></span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">6</span>
-              <span class="code-text">  <span class="syntax-type">std::string</span> core_target = <span class="syntax-func">"C++ System Architecture &amp; CP"</span>;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">7</span>
-              <span class="code-text">  <span class="syntax-kw">auto</span> <span class="syntax-func">philosophy</span>() <span class="syntax-kw">const</span> <span class="syntax-kw">noexcept</span> {</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">8</span>
-              <span class="code-text">    <span class="syntax-kw">return</span> <span class="syntax-func">"Foundational C++ architectures &gt; surface-level frameworks"</span>;</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">9</span>
-              <span class="code-text">  }</span>
-            </div>
-            <div class="code-line">
-              <span class="line-num">10</span>
-              <span class="code-text">};</span>
-            </div>
-          </div>
-          <div class="about-terminal-footer">
-            <span>LOCATION: CAIRO / BANHA, EGYPT</span>
-            <span style="color: var(--accent-green);">STATUS: COMPILED</span>
-          </div>
-        </div>
-
-        <!-- Right: 2x2 Metric Block -->
-        <div class="about-metrics-grid">
-          <div class="about-metric-tile" data-magnetic>
-            <div class="metric-top">
-              <span class="metric-index">MTR_01</span>
-              <span class="metric-tag">CORE LANG</span>
-            </div>
-            <div class="metric-value highlight-green">C++20</div>
-            <div class="metric-title">Primary Systems Language</div>
-            <div class="metric-desc">Low-level systems architecture, cache locality, and constexpr compilation.</div>
-          </div>
-
-          <div class="about-metric-tile" data-magnetic>
-            <div class="metric-top">
-              <span class="metric-index">MTR_02</span>
-              <span class="metric-tag">CODEFORCES</span>
-            </div>
-            <div class="metric-value highlight-orange">219</div>
-            <div class="metric-title">Problems Solved on Codeforces</div>
-            <div class="metric-desc">Algorithmic solutions spanning graphs, range queries, math, and DP.</div>
-          </div>
-
-          <div class="about-metric-tile" data-magnetic>
-            <div class="metric-top">
-              <span class="metric-index">MTR_03</span>
-              <span class="metric-tag">CONTESTS</span>
-            </div>
-            <div class="metric-value">3</div>
-            <div class="metric-title">Rated Official Rounds</div>
-            <div class="metric-desc">Active competitor in official division rounds and regional training ladders.</div>
-          </div>
-
-          <div class="about-metric-tile" data-magnetic>
-            <div class="metric-top">
-              <span class="metric-index">MTR_04</span>
-              <span class="metric-tag">ACADEMIC</span>
-            </div>
-            <div class="metric-value highlight-green">ASU</div>
-            <div class="metric-title">National Ain Shams University</div>
-            <div class="metric-desc">Artificial Intelligence Department with emphasis on Discrete Math &amp; Systems.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 03: What I Do Engineering Pillars (03 // WHAT I DO) -->
-    <section id="capabilities" class="capabilities-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">WHAT I DO // CORE CAPABILITIES</h2>
-        <span class="section-tag">ENGINEERING_PILLARS</span>
-      </div>
-
-      <div class="capabilities-grid">
-        <!-- Pillar 1 -->
-        <div class="capability-pillar" data-magnetic>
-          <div class="pillar-header">
-            <div class="pillar-icon-box">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-              </svg>
-            </div>
-            <span class="pillar-index">01 // OPTIMIZATION</span>
-          </div>
-          <h3 class="pillar-title">Algorithmic Optimization &amp; Problem Solving</h3>
-          <p class="pillar-desc">
-            Asymptotic time and space complexity reduction through dynamic programming state compression, greedy exchange proofs, and amortized complexity analysis.
-          </p>
-          <div class="pillar-specs">
-            <span class="pillar-tag">DP Optimization</span>
-            <span class="pillar-tag">Divide &amp; Conquer</span>
-            <span class="pillar-tag">Branch &amp; Bound</span>
-          </div>
-        </div>
-
-        <!-- Pillar 2 -->
-        <div class="capability-pillar" data-magnetic>
-          <div class="pillar-header">
-            <div class="pillar-icon-box">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="12" cy="5" r="3"></circle>
-                <line x1="12" y1="8" x2="12" y2="12"></line>
-                <circle cx="6" cy="19" r="3"></circle>
-                <circle cx="18" cy="19" r="3"></circle>
-                <line x1="12" y1="12" x2="6" y2="16"></line>
-                <line x1="12" y1="12" x2="18" y2="16"></line>
-              </svg>
-            </div>
-            <span class="pillar-index">02 // STRUCTURES</span>
-          </div>
-          <h3 class="pillar-title">High-Performance Data Structures</h3>
-          <p class="pillar-desc">
-            Design and implementation of tree structures, persistent tries, and range-query engines executing sub-millisecond updates across millions of elements.
-          </p>
-          <div class="pillar-specs">
-            <span class="pillar-tag">Lazy Segment Trees</span>
-            <span class="pillar-tag">DSU with Rollback</span>
-            <span class="pillar-tag">Binary Indexed Trees</span>
-          </div>
-        </div>
-
-        <!-- Pillar 3 -->
-        <div class="capability-pillar" data-magnetic>
-          <div class="pillar-header">
-            <div class="pillar-icon-box">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                <rect x="9" y="9" width="6" height="6"></rect>
-                <line x1="9" y1="1" x2="9" y2="4"></line>
-                <line x1="15" y1="1" x2="15" y2="4"></line>
-                <line x1="9" y1="20" x2="9" y2="23"></line>
-                <line x1="15" y1="20" x2="15" y2="23"></line>
-                <line x1="20" y1="9" x2="23" y2="9"></line>
-                <line x1="20" y1="14" x2="23" y2="14"></line>
-                <line x1="1" y1="9" x2="4" y2="9"></line>
-                <line x1="1" y1="14" x2="4" y2="14"></line>
-              </svg>
-            </div>
-            <span class="pillar-index">03 // HARDWARE</span>
-          </div>
-          <h3 class="pillar-title">Low-Level Systems &amp; Low Latency</h3>
-          <p class="pillar-desc">
-            Direct CPU architectural optimization leveraging cache-line alignment, custom arena allocators, SIMD intrinsics, and bitboard parallel logic.
-          </p>
-          <div class="pillar-specs">
-            <span class="pillar-tag">Cache Locality</span>
-            <span class="pillar-tag">Custom Allocators</span>
-            <span class="pillar-tag">Bitboards (BMI2)</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 04: Technical Arsenal Memory Map Matrix (04 // ARSENAL) -->
-    <section id="arsenal" class="arsenal-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">TECHNICAL ARSENAL // MEMORY MAP</h2>
-        <span class="section-tag">HEX_ALLOCATION_MATRIX</span>
-      </div>
-
-      <div class="arsenal-memory-grid">
-        <!-- Memory Block 0x00 -->
-        <div class="arsenal-memory-block" data-magnetic>
-          <div class="memory-block-header">
-            <span class="memory-addr-badge">0x00</span>
-            <span class="memory-category">01 // LANGUAGES</span>
-          </div>
-          <div class="memory-block-body">
-            <div class="skill-row">
-              <span class="skill-name">C++20</span>
-              <span class="skill-desc">Concepts, Templates, STL internals, Fast I/O</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">C</span>
-              <span class="skill-desc">Pointers, memory layout, manual buffers</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">Python</span>
-              <span class="skill-desc">Algorithmic prototyping, AI test harnesses</span>
-            </div>
-          </div>
-          <div class="memory-block-footer">
-            <span>ALIGNMENT: 64-BIT</span>
-            <span class="status-dot-active">ALLOCATED</span>
-          </div>
-        </div>
-
-        <!-- Memory Block 0x04 -->
-        <div class="arsenal-memory-block" data-magnetic>
-          <div class="memory-block-header">
-            <span class="memory-addr-badge">0x04</span>
-            <span class="memory-category">02 // STRUCTURES</span>
-          </div>
-          <div class="memory-block-body">
-            <div class="skill-row">
-              <span class="skill-name">Segment Trees</span>
-              <span class="skill-desc">Lazy propagation, dynamic point updates</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">DSU &amp; Sparse Tables</span>
-              <span class="skill-desc">Path compression, O(1) static RMQ queries</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">Treaps &amp; HLD</span>
-              <span class="skill-desc">Implicit keys, Heavy-Light Decomposition</span>
-            </div>
-          </div>
-          <div class="memory-block-footer">
-            <span>COMPLEXITY: O(log N)</span>
-            <span class="status-dot-active">ALLOCATED</span>
-          </div>
-        </div>
-
-        <!-- Memory Block 0x08 -->
-        <div class="arsenal-memory-block" data-magnetic>
-          <div class="memory-block-header">
-            <span class="memory-addr-badge">0x08</span>
-            <span class="memory-category">03 // GRAPH &amp; MATH</span>
-          </div>
-          <div class="memory-block-body">
-            <div class="skill-row">
-              <span class="skill-name">Tarjan's &amp; 2-SAT</span>
-              <span class="skill-desc">Strongly connected components, implication graphs</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">MaxFlow / MinCut</span>
-              <span class="skill-desc">Dinic's algorithm, bipartite matching</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">Number Theory</span>
-              <span class="skill-desc">Matrix exponentiation, modular inverse, primes</span>
-            </div>
-          </div>
-          <div class="memory-block-footer">
-            <span>DOMAIN: DISCRETE</span>
-            <span class="status-dot-active">ALLOCATED</span>
-          </div>
-        </div>
-
-        <!-- Memory Block 0x0C -->
-        <div class="arsenal-memory-block" data-magnetic>
-          <div class="memory-block-header">
-            <span class="memory-addr-badge">0x0C</span>
-            <span class="memory-category">04 // TOOLCHAIN</span>
-          </div>
-          <div class="memory-block-body">
-            <div class="skill-row">
-              <span class="skill-name">Linux &amp; Toolchain</span>
-              <span class="skill-desc">GCC 14, Clang 18, Bash, POSIX environments</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">Debug &amp; Build</span>
-              <span class="skill-desc">GDB, Valgrind, CMake, AddressSanitizer</span>
-            </div>
-            <div class="skill-row">
-              <span class="skill-name">VCS &amp; Editors</span>
-              <span class="skill-desc">Git, Neovim, VSCode terminal workflows</span>
-            </div>
-          </div>
-          <div class="memory-block-footer">
-            <span>RUNTIME: NATIVE</span>
-            <span class="status-dot-active">ALLOCATED</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 05: Codeforces Command Center & Live C++ Terminal (05 // BENCHMARKS) -->
-    <section id="codeforces" class="codeforces-command-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">CODEFORCES COMMAND CENTER // COMPETITIVE ARCHIVE</h2>
-        <div class="header-action-group">
-          <a href="https://codeforces.com/profile/Itz_Arslan" target="_blank" rel="noopener noreferrer" class="cf-profile-link-btn" data-magnetic>
-            CF // ITZ_ARSLAN &nearr;
-          </a>
-          <span class="section-tag">NEWBIE // RATING_TRAJECTORY</span>
-        </div>
-      </div>
-
-      <!-- 4 Top Metric Cards with Animated Tickers -->
-      <div class="cf-metrics-grid">
-        <div class="cf-metric-card" data-magnetic>
-          <div class="cf-metric-header">
-            <span class="cf-metric-label">CURRENT RATING</span>
-            <span id="cf-rating-badge" class="cf-metric-badge badge-newbie">NEWBIE</span>
-          </div>
-          <div class="cf-metric-val-wrap">
-            <span id="cf-rating-val" class="cf-counter-val highlight-green" data-target="747" data-suffix="">0</span>
-          </div>
-          <div class="cf-metric-sub">Verified Codeforces rating on active handle: Itz_Arslan</div>
-        </div>
-
-        <div class="cf-metric-card" data-magnetic>
-          <div class="cf-metric-header">
-            <span class="cf-metric-label">MAX RATING</span>
-            <span id="cf-peak-badge" class="cf-metric-badge badge-newbie">PEAK 747</span>
-          </div>
-          <div class="cf-metric-val-wrap">
-            <span id="cf-peak-val" class="cf-counter-val highlight-orange" data-target="747" data-suffix="">0</span>
-          </div>
-          <div class="cf-metric-sub">All-time peak rating reached in official contest rounds</div>
-        </div>
-
-        <div class="cf-metric-card" data-magnetic>
-          <div class="cf-metric-header">
-            <span class="cf-metric-label">PROBLEMS SOLVED</span>
-            <span class="cf-metric-badge">VERIFIED</span>
-          </div>
-          <div class="cf-metric-val-wrap">
-            <span id="cf-solved-val" class="cf-counter-val" data-target="219" data-suffix="">0</span>
-          </div>
-          <div class="cf-metric-sub">Verified algorithmic submissions across graphs, math, DP &amp; greedy</div>
-        </div>
-
-        <div class="cf-metric-card" data-magnetic>
-          <div class="cf-metric-header">
-            <span class="cf-metric-label">CONTESTS ATTENDED</span>
-            <span class="cf-metric-badge">RATED ROUNDS</span>
-          </div>
-            <div class="cf-metric-val-wrap">
-            <span id="cf-contests-val" class="cf-counter-val highlight-green" data-target="3" data-suffix="">0</span>
-          </div>
-          <div class="cf-metric-sub">Official rated Codeforces division rounds completed</div>
-        </div>
-      </div>
-
-      <!-- Interactive SVG Rating Trajectory Chart with Ambient Glow Bleed Behind Box -->
-      <div class="cf-chart-outer-wrapper">
-        <!-- Backdrop Glow Layer Behind the Box Itself -->
-        <div id="cf-chart-backdrop-glow" class="cf-chart-backdrop-glow" aria-hidden="true">
-          <svg id="cf-backdrop-glow-svg" viewBox="0 0 1000 420" preserveAspectRatio="none" aria-hidden="true">
-            <defs>
-              <linearGradient id="cf-backdrop-stroke-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#00FF66" stop-opacity="0"></stop>
-                <stop offset="6%" stop-color="#00FF66" stop-opacity="0.85"></stop>
-                <stop offset="14%" stop-color="#00FF66" stop-opacity="1"></stop>
-                <stop offset="86%" stop-color="#00FF66" stop-opacity="1"></stop>
-                <stop offset="94%" stop-color="#00FF66" stop-opacity="0.85"></stop>
-                <stop offset="100%" stop-color="#00FF66" stop-opacity="0"></stop>
-              </linearGradient>
-              <!-- Multi-stage Gaussian filter for oversized ambient glow bleed behind box -->
-              <filter id="cf-backdrop-glow-filter" x="-80%" y="-100%" width="260%" height="300%">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="45" result="blurDeep"></feGaussianBlur>
-                <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blurMid"></feGaussianBlur>
-                <feMerge>
-                  <feMergeNode in="blurDeep"></feMergeNode>
-                  <feMergeNode in="blurMid"></feMergeNode>
-                </feMerge>
-              </filter>
-            </defs>
-            <path id="cf-backdrop-bleed-path" class="cf-backdrop-bleed-path" stroke="url(#cf-backdrop-stroke-gradient)" filter="url(#cf-backdrop-glow-filter)"
-                  d="M -140 354 C -30 348, 70 334, 160 313 C 320 295, 420 250, 520 236 C 660 218, 770 200, 880 196 L 1140 196"></path>
-          </svg>
-        </div>
-
-        <div id="cf-chart-card" class="cf-chart-card">
-        <div class="cf-chart-header">
-          <div class="cf-chart-title-group">
-            <span class="chart-main-title">RATING TRAJECTORY: 3 RATED ROUNDS</span>
-            <span class="chart-sub-title">PERFORMANCE PROGRESSION (CONTEST 1 &rarr; 747 PEAK)</span>
-          </div>
-          <div class="cf-chart-legend">
-            <span class="legend-chip"><span class="legend-color-dot dot-pupil"></span>PUPIL (&ge;1200)</span>
-            <span class="legend-chip"><span class="legend-color-dot dot-newbie"></span>NEWBIE (&lt;1200)</span>
-            <span class="legend-chip"><span class="legend-color-dot dot-expert"></span>TRAJECTORY CURVE</span>
-          </div>
-        </div>
-
-        <div id="cf-svg-container" class="cf-svg-container">
-          <svg id="cf-rating-chart" viewBox="0 0 1000 420" preserveAspectRatio="none" aria-label="Codeforces Rating Growth Graph" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-            <defs>
-              <linearGradient id="cf-gradient" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#00FF66" stop-opacity="0.32"></stop>
-                <stop offset="50%" stop-color="#00FF66" stop-opacity="0.08"></stop>
-                <stop offset="100%" stop-color="#050505" stop-opacity="0.0"></stop>
-              </linearGradient>
-              <!-- Trajectory line & glow gradient: naturally fades to transparent at both ends -->
-              <linearGradient id="cf-stroke-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#00FF66" stop-opacity="0"></stop>
-                <stop offset="4%" stop-color="#00FF66" stop-opacity="0.3"></stop>
-                <stop offset="14%" stop-color="#00FF66" stop-opacity="0.95"></stop>
-                <stop offset="84%" stop-color="#00FF66" stop-opacity="0.95"></stop>
-                <stop offset="94%" stop-color="#00FF66" stop-opacity="0.3"></stop>
-                <stop offset="100%" stop-color="#00FF66" stop-opacity="0"></stop>
-              </linearGradient>
-            </defs>
-
-            <!-- Rating Threshold Gridlines & Zones -->
-            <!-- Pupil Zone 1200+ -->
-            <rect x="0" y="45" width="1000" height="40" fill="rgba(76, 175, 80, 0.04)"></rect>
-            <line x1="0" y1="70" x2="1000" y2="70" class="chart-threshold-line line-pupil"></line>
-            <text x="30" y="63" class="chart-threshold-text text-pupil">1200 // PUPIL THRESHOLD</text>
-            <text x="970" y="63" text-anchor="end" class="chart-threshold-text text-pupil">TARGET: 1200 PUPIL ↗</text>
-
-            <!-- 900 Target Threshold line -->
-            <line x1="0" y1="150" x2="1000" y2="150" class="chart-threshold-line line-newbie"></line>
-            <text x="30" y="143" class="chart-threshold-text text-newbie">900 // CANDIDATE TARGET</text>
-
-            <!-- 600 Baseline line -->
-            <line x1="0" y1="230" x2="1000" y2="230" class="chart-threshold-line line-newbie" style="opacity: 0.25;"></line>
-            <text x="30" y="223" class="chart-threshold-text text-newbie">600 // PROGRESSION BASELINE</text>
-
-            <!-- 350 Entry line -->
-            <line x1="0" y1="330" x2="1000" y2="330" class="chart-threshold-line line-newbie" style="opacity: 0.18;"></line>
-            <text x="30" y="323" class="chart-threshold-text text-newbie">350 // ENTRY BASELINE</text>
-
-            <!-- Vertical Timeline Guides for Contests -->
-            <line x1="160" y1="60" x2="160" y2="370" class="chart-vgrid-line"></line>
-            <line x1="520" y1="60" x2="520" y2="370" class="chart-vgrid-line"></line>
-            <line x1="880" y1="60" x2="880" y2="370" class="chart-vgrid-line"></line>
-
-            <!-- Area Fill Gradient (Full span from 0 to 1000) -->
-            <path id="cf-rating-area" class="cf-rating-area" fill="url(#cf-gradient)" d="M 0 340 C 80 330, 120 320, 160 313 C 320 295, 420 250, 520 236 C 660 218, 770 200, 880 196 L 1000 196 L 1000 370 L 0 370 Z"></path>
-
-            <!-- Layer 1: Ambient Pulsing Glow Aura (Extended soft fade curve) -->
-            <path id="cf-rating-glow" class="cf-rating-glow" stroke="url(#cf-stroke-gradient)"
-                  d="M -70 348 C 10 342, 90 328, 160 313 C 320 295, 420 250, 520 236 C 660 218, 770 200, 880 196 L 1070 196"></path>
-
-            <!-- Layer 2: Main Solid Core Trajectory Path -->
-            <path id="cf-rating-line" class="cf-rating-path" stroke="url(#cf-stroke-gradient)"
-                  d="M -70 348 C 10 342, 90 328, 160 313 C 320 295, 420 250, 520 236 C 660 218, 770 200, 880 196 L 1070 196"></path>
-
-            <!-- Layer 3: Kinetic Energy Laser Pulse Beam -->
-            <path id="cf-rating-beam" class="cf-rating-beam" stroke="url(#cf-stroke-gradient)"
-                  d="M -70 348 C 10 342, 90 328, 160 313 C 320 295, 420 250, 520 236 C 660 218, 770 200, 880 196 L 1070 196"></path>
-
-            <!-- Layer 4: Interactive Hover Dashed Stream (Line with spaces in it moving across the graph on hover) -->
-            <path id="cf-hover-dash-path" class="cf-hover-dash-path" stroke="url(#cf-stroke-gradient)"
-                  d="M -70 348 C 10 342, 90 328, 160 313 C 320 295, 420 250, 520 236 C 660 218, 770 200, 880 196 L 1070 196"></path>
-
-              <!-- Data Milestone Points (Historical 3 Contests with Badges) -->
-              <!-- Milestone 1 -->
-              <circle cx="160" cy="313" r="6" class="chart-point"></circle>
-              <g class="chart-pill" transform="translate(160, 282)">
-                <rect x="-44" y="-11" width="88" height="18" rx="2" class="pill-rect"></rect>
-                <text x="0" y="2" text-anchor="middle" class="pill-text">CONTEST 1 · 356</text>
-              </g>
-
-              <!-- Milestone 2 -->
-              <circle cx="520" cy="236" r="6" class="chart-point"></circle>
-              <g class="chart-pill" transform="translate(520, 205)">
-                <rect x="-44" y="-11" width="88" height="18" rx="2" class="pill-rect"></rect>
-                <text x="0" y="2" text-anchor="middle" class="pill-text">CONTEST 2 · 614</text>
-              </g>
-
-              <!-- Milestone 3: Peak -->
-              <circle cx="880" cy="196" r="7" class="chart-point-peak"></circle>
-              <g class="chart-pill pill-peak" transform="translate(880, 160)">
-                <rect x="-68" y="-12" width="136" height="20" rx="2" class="pill-rect peak-rect"></rect>
-                <text x="0" y="2" text-anchor="middle" class="pill-text peak-text">★ PEAK &amp; CURRENT: 747</text>
-              </g>
-
-              <!-- Interactive Vertical Scrubber Guide (Line with spaces in it moving over the graph) -->
-              <line id="cf-scrub-guide" class="cf-scrub-guide" x1="0" y1="45" x2="0" y2="370"></line>
-
-              <!-- Dynamic Interactive Scrubber Point along Curve -->
-              <g id="cf-interactive-point-group" class="cf-interactive-point-group" transform="translate(880, 196)">
-                <circle class="scrub-halo" r="18"></circle>
-                <circle class="scrub-ring" r="8"></circle>
-                <circle class="scrub-core" r="3.5"></circle>
-              </g>
-            </svg>
-
-            <!-- Floating Precision Telemetry Tooltip -->
-            <div id="cf-chart-tooltip" class="cf-chart-tooltip" aria-hidden="true">
-              <div class="tooltip-header">
-                <span class="tooltip-status-dot"></span>
-                <span class="tooltip-title" id="tooltip-contest-title">ROUND 1114 (DIV. 3)</span>
-              </div>
-              <div class="tooltip-body">
-                <div class="tooltip-metric">
-                  <span class="tooltip-label">RATING:</span>
-                  <span class="tooltip-value highlight-green" id="tooltip-rating-val">747</span>
-                </div>
-                <div class="tooltip-metric">
-                  <span class="tooltip-label">RANK:</span>
-                  <span class="tooltip-value" id="tooltip-rank-val">#22615</span>
-                </div>
-                <div class="tooltip-metric">
-                  <span class="tooltip-label">DELTA:</span>
-                  <span class="tooltip-value highlight-orange" id="tooltip-delta-val">+133</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Codeforces Annual Activity Matrix & Consistency Grid -->
-      <div class="cf-activity-card">
-        <div class="cf-activity-header">
-          <div class="cf-activity-title-group">
-            <span class="status-led-blink"></span>
-            <span class="cf-activity-title">ACTIVITY MATRIX // ANNUAL CONSISTENCY CALENDAR</span>
-          </div>
-
-          <div class="cf-activity-controls">
-            <div class="cf-control-group hig-popup-group">
-              <label class="cf-control-label" for="cf-year-select">YEAR:</label>
-              <!-- Hidden native select for backward compatibility with automated tests -->
-              <select id="cf-year-select" class="cf-filter-select visually-hidden-select" aria-label="Choose Year">
-                <option value="rolling" selected>Choose year</option>
-                <option value="2026">2026</option>
-                <option value="2025">2025</option>
-              </select>
-
-              <!-- Apple HIG Pop-Up Button -->
-              <div class="hig-popup-container" id="hig-year-popup">
-                <button type="button" class="hig-popup-btn" id="hig-year-btn" aria-haspopup="menu" aria-expanded="false" aria-label="Select Year Filter">
-                  <span class="hig-popup-label" id="hig-year-label">Choose year</span>
-                  <svg class="hig-popup-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
-                    <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </button>
-                <div class="hig-popup-menu" id="hig-year-menu" role="menu" aria-orientation="vertical" hidden>
-                  <button type="button" class="hig-menu-item is-selected" role="menuitem" data-value="rolling">
-                    <span class="hig-menu-checkmark" aria-hidden="true">✓</span>
-                    <span class="hig-menu-text">Choose year</span>
-                  </button>
-                  <button type="button" class="hig-menu-item" role="menuitem" data-value="2026">
-                    <span class="hig-menu-checkmark" aria-hidden="true"></span>
-                    <span class="hig-menu-text">2026</span>
-                  </button>
-                  <button type="button" class="hig-menu-item" role="menuitem" data-value="2025">
-                    <span class="hig-menu-checkmark" aria-hidden="true"></span>
-                    <span class="hig-menu-text">2025</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 52-Week Heatmap Grid Scroll Container -->
-        <div class="cf-heatmap-scroll-wrapper">
-          <div class="cf-heatmap-inner">
-            <svg id="cf-activity-heatmap" class="cf-activity-heatmap" viewBox="0 0 880 145" preserveAspectRatio="xMidYMid meet"></svg>
-            <!-- Floating Heatmap Tooltip -->
-            <div id="cf-heatmap-tooltip" class="cf-heatmap-tooltip" aria-hidden="true">
-              <span id="heatmap-tooltip-count" class="heatmap-tooltip-count">8 problems</span>
-              <span id="heatmap-tooltip-date" class="heatmap-tooltip-date">Nov 8, 2024</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Heatmap Legend Footer -->
-        <div class="cf-heatmap-footer">
-          <div class="cf-heatmap-legend">
-            <span class="legend-text">LESS</span>
-            <span class="legend-swatch lvl-0"></span>
-            <span class="legend-swatch lvl-1"></span>
-            <span class="legend-swatch lvl-2"></span>
-            <span class="legend-swatch lvl-3"></span>
-            <span class="legend-text">MORE</span>
-          </div>
-          <div class="cf-active-streak-tag">
-            <span class="streak-dot"></span>
-            <span class="streak-text">ACTIVE STREAK: <strong>5 DAYS</strong> // MAX: <strong>11 DAYS</strong></span>
-          </div>
-        </div>
-
-        <!-- 6 Consistency Metric Counters -->
-        <div class="cf-consistency-grid">
-          <div class="cf-consistency-metric">
-            <div class="consistency-val-row">
-              <span class="consistency-number" id="cf-heatmap-solved-alltime" data-target="219">219</span>
-              <span class="consistency-unit">problems</span>
-            </div>
-            <span class="consistency-label">SOLVED FOR ALL TIME</span>
-          </div>
-          <div class="cf-consistency-metric">
-            <div class="consistency-val-row">
-              <span class="consistency-number" id="cf-heatmap-solved-year" data-target="219">219</span>
-              <span class="consistency-unit">problems</span>
-            </div>
-            <span class="consistency-label">SOLVED FOR THE LAST YEAR</span>
-          </div>
-          <div class="cf-consistency-metric">
-            <div class="consistency-val-row">
-              <span class="consistency-number" id="cf-heatmap-solved-month" data-target="103">103</span>
-              <span class="consistency-unit">problems</span>
-            </div>
-            <span class="consistency-label">SOLVED FOR THE LAST MONTH</span>
-          </div>
-          <div class="cf-consistency-metric">
-            <div class="consistency-val-row">
-              <span class="consistency-number highlight-orange" id="cf-heatmap-streak-max" data-target="11">11</span>
-              <span class="consistency-unit">days</span>
-            </div>
-            <span class="consistency-label">IN A ROW MAX.</span>
-          </div>
-          <div class="cf-consistency-metric">
-            <div class="consistency-val-row">
-              <span class="consistency-number highlight-orange" id="cf-heatmap-streak-year" data-target="11">11</span>
-              <span class="consistency-unit">days</span>
-            </div>
-            <span class="consistency-label">IN A ROW FOR THE LAST YEAR</span>
-          </div>
-          <div class="cf-consistency-metric">
-            <div class="consistency-val-row">
-              <span class="consistency-number highlight-green" id="cf-heatmap-streak-month" data-target="5">5</span>
-              <span class="consistency-unit">days</span>
-            </div>
-            <span class="consistency-label">IN A ROW FOR THE LAST MONTH</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Codeforces Problem Tags Distribution Donut Chart -->
-      <div class="cf-tags-card">
-        <div class="cf-tags-header">
-          <div class="cf-tags-title-group">
-            <span class="status-led-blink"></span>
-            <span class="cf-tags-title">PROBLEM TAXONOMY // TAGS SOLVED DISTRIBUTION</span>
-          </div>
-          <div class="cf-tags-summary">
-            <span class="tags-badge"><span class="badge-dot"></span><span id="cf-unique-solved-badge">21 UNIQUE PROBLEMS</span></span>
-            <span class="tags-badge-dim" id="cf-tagged-instances-badge">// 40 TAGGED INSTANCES</span>
-          </div>
-        </div>
-
-        <div class="cf-tags-body">
-          <!-- Left: Glowing Donut Chart Container -->
-          <div class="cf-donut-wrapper">
-            <div class="cf-donut-stage">
-              <svg id="cf-donut-chart" class="cf-donut-svg" viewBox="0 0 340 340" aria-label="Tags Solved Donut Chart">
-                <defs>
-                  <filter id="donut-glow" x="-20%" y="-20%" width="140%" height="140%">
-                    <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
-                    <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
-                  </filter>
-                </defs>
-                <g id="cf-donut-slices-group" class="cf-donut-slices-group"></g>
-              </svg>
-
-              <!-- Central Interactive HUD Display -->
-              <div id="cf-donut-center-hud" class="cf-donut-center-hud">
-                <span id="cf-donut-tag-name" class="center-hud-tag">TOPICS</span>
-                <span id="cf-donut-tag-count" class="center-hud-count">21</span>
-                <span id="cf-donut-tag-meta" class="center-hud-meta">UNIQUE SOLVED</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right: Interactive Tags Legend Grid -->
-          <div class="cf-tags-legend" id="cf-tags-legend"></div>
-
-          <!-- Interactive Spreading Circuit Lines Overlay (No box, pure laser tendrils) -->
-          <div id="cf-donut-spreading-overlay" class="cf-donut-spreading-overlay" aria-hidden="true">
-            <svg id="cf-donut-spreading-svg" class="cf-donut-spreading-svg"></svg>
-            <div id="cf-donut-spreading-labels" class="cf-donut-spreading-labels"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Live C++ Problem-Solving Terminal -->
-      <div class="cf-terminal-card code-snap-card">
-        <div class="cf-terminal-header">
-          <div class="terminal-controls">
-            <span class="terminal-dot"></span>
-            <span class="terminal-dot"></span>
-            <span class="terminal-dot"></span>
-          </div>
-          <span class="cf-terminal-filename">Itz_Arslan_Solution.cpp</span>
-          <div class="cf-terminal-status">
-            <span class="status-led-blink"></span>
-            <span>STATUS: ACCEPTED // CODEFORCES</span>
-          </div>
-        </div>
-
-        <div class="cf-terminal-code-container">
-          <pre class="cf-code-pre"><code class="cf-code-block"><span class="code-kw">#include</span> <span class="code-str">&lt;iostream&gt;</span>
-<span class="code-kw">#include</span> <span class="code-str">&lt;vector&gt;</span>
-<span class="code-kw">#include</span> <span class="code-str">&lt;numeric&gt;</span>
-
-<span class="code-comment">// Codeforces Solution // Handle: Itz_Arslan // Status: ACCEPTED</span>
-<span class="code-kw">using namespace</span> <span class="code-type">std</span>;
-
-<span class="code-kw">constexpr</span> <span class="code-type">long long</span> <span class="code-num">MOD</span> = <span class="code-num">1e9 + 7</span>;
-
-<span class="code-comment">// Fast modular exponentiation in O(log exp)</span>
-<span class="code-type">long long</span> <span class="code-func">power_mod</span>(<span class="code-type">long long</span> base, <span class="code-type">long long</span> exp) {
-    <span class="code-type">long long</span> res = <span class="code-num">1</span>;
-    base %= <span class="code-num">MOD</span>;
-    <span class="code-kw">while</span> (exp &gt; <span class="code-num">0</span>) {
-        <span class="code-kw">if</span> (exp &amp; <span class="code-num">1</span>) res = (res * base) % <span class="code-num">MOD</span>;
-        base = (base * base) % <span class="code-num">MOD</span>;
-        exp &gt;&gt;= <span class="code-num">1</span>;
-    }
-    <span class="code-kw">return</span> res;
-}
-
-<span class="code-type">void</span> <span class="code-func">solve</span>() {
-    <span class="code-type">int</span> n;
-    <span class="code-kw">if</span> (!(<span class="code-type">cin</span> &gt;&gt; n)) <span class="code-kw">return</span>;
-    <span class="code-type">vector</span>&lt;<span class="code-type">long long</span>&gt; a(n);
-    <span class="code-kw">for</span> (<span class="code-type">int</span> i = <span class="code-num">0</span>; i &lt; n; ++i) {
-        <span class="code-type">cin</span> &gt;&gt; a[i];
-    }
-    <span class="code-type">long long</span> running_sum = <span class="code-num">0</span>;
-    <span class="code-kw">for</span> (<span class="code-type">int</span> i = <span class="code-num">0</span>; i &lt; n; ++i) {
-        running_sum = (running_sum + <span class="code-func">power_mod</span>(a[i], <span class="code-num">2</span>)) % <span class="code-num">MOD</span>;
-    }
-    <span class="code-type">cout</span> &lt;&lt; running_sum &lt;&lt; <span class="code-str">"\n"</span>;
-}
-
-<span class="code-type">int</span> <span class="code-func">main</span>() {
-    <span class="code-comment">// Fast I/O for CP performance</span>
-    <span class="code-type">ios_base</span>::<span class="code-func">sync_with_stdio</span>(<span class="code-kw">false</span>);
-    <span class="code-type">cin</span>.<span class="code-func">tie</span>(<span class="code-kw">nullptr</span>);
-    <span class="code-type">int</span> t = <span class="code-num">1</span>;
-    <span class="code-comment">// cin &gt;&gt; t;</span>
-    <span class="code-kw">while</span> (t--) <span class="code-func">solve</span>();
-    <span class="code-kw">return</span> <span class="code-num">0</span>;
-}</code></pre>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 06: GitHub Intelligence (06 // GITHUB) -->
-    <section id="github" class="github-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">GITHUB INTELLIGENCE // CODEBASE ACTIVITY</h2>
-        <div class="header-action-group">
-          <a href="https://github.com/Omar-Ayman-Ali" target="_blank" rel="noopener noreferrer" class="cf-profile-link-btn gh-profile-link-btn" data-magnetic>
-            GITHUB // @OMAR-AYMAN-ALI &nearr;
-          </a>
-          <span class="section-tag gh-section-tag">ACTIVITY_TELEMETRY</span>
-        </div>
-      </div>
-
-      <div class="github-matrix-card gh-card-purple">
-        <!-- Top Stats Row -->
-        <div class="github-stats-row">
-          <div class="github-stat-item">
-            <span class="stat-label">TOTAL CONTRIBUTIONS (PAST YEAR)</span>
-            <span id="github-contrib-val" class="stat-value highlight-purple">47</span>
-          </div>
-          <div class="github-stat-item">
-            <span class="stat-label">PUBLIC REPOSITORIES</span>
-            <span id="github-repos-val" class="stat-value highlight-purple">4 REPOS</span>
-          </div>
-          <div class="github-stat-item">
-            <span class="stat-label">PRIMARY SYSTEMS LANGUAGE</span>
-            <span class="stat-value">C++ (SYSTEMS)</span>
-          </div>
-          <div class="github-stat-item">
-            <span class="stat-label">WEB ARCHITECTURE</span>
-            <span class="stat-value">HTML5 / CSS GRID / JS</span>
-          </div>
-        </div>
-
-        <!-- Heatmap Grid Container Matching User Reference -->
-        <div class="heatmap-container">
-          <div class="heatmap-header">
-            <span class="heatmap-main-title">47 contributions in the last year</span>
-            <div class="heatmap-settings-tag">
-              <span class="status-led-blink gh-led-purple"></span>
-              <span>GITHUB // @Omar-Ayman-Ali</span>
-            </div>
-          </div>
-
-          <!-- Heatmap Outer Frame matching reference -->
-          <div class="heatmap-frame">
-            <div class="heatmap-scroll-area">
-              <div class="heatmap-table-wrap">
-                <!-- Month Labels Header -->
-                <div class="heatmap-months-row" aria-hidden="true">
-                  <span class="heatmap-month-spacer"></span>
-                  <div class="heatmap-months-track">
-                    <span class="heatmap-month" style="grid-column: 1;">Sep</span>
-                    <span class="heatmap-month" style="grid-column: 5;">Oct</span>
-                    <span class="heatmap-month" style="grid-column: 9;">Nov</span>
-                    <span class="heatmap-month" style="grid-column: 14;">Dec</span>
-                    <span class="heatmap-month" style="grid-column: 18;">Jan</span>
-                    <span class="heatmap-month" style="grid-column: 23;">Feb</span>
-                    <span class="heatmap-month" style="grid-column: 27;">Mar</span>
-                    <span class="heatmap-month" style="grid-column: 31;">Apr</span>
-                    <span class="heatmap-month" style="grid-column: 36;">May</span>
-                    <span class="heatmap-month" style="grid-column: 40;">Jun</span>
-                    <span class="heatmap-month" style="grid-column: 44;">Jul</span>
-                    <span class="heatmap-month" style="grid-column: 49;">Aug</span>
-                  </div>
-                </div>
-
-                <!-- Grid with Weekday Labels on Left -->
-                <div class="heatmap-body-row">
-                  <div class="heatmap-weekdays-col" aria-hidden="true">
-                    <span class="heatmap-weekday"></span>
-                    <span class="heatmap-weekday">Mon</span>
-                    <span class="heatmap-weekday"></span>
-                    <span class="heatmap-weekday">Wed</span>
-                    <span class="heatmap-weekday"></span>
-                    <span class="heatmap-weekday">Fri</span>
-                    <span class="heatmap-weekday"></span>
-                  </div>
-
-                  <div id="github-heatmap-grid" class="heatmap-grid" role="region" aria-label="GitHub Activity Heatmap">
-                    <!-- Populated by app.js with 53x7 larger cells -->
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Heatmap Frame Footer matching reference -->
-            <div class="heatmap-frame-footer">
-              <a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 class="heatmap-help-link">
-                Learn how we count contributions
-              </a>
-
-              <div class="heatmap-legend">
-                <span class="legend-text">Less</span>
-                <span class="legend-box git-lvl-0" title="0 contributions"></span>
-                <span class="legend-box git-lvl-1" title="1-2 contributions"></span>
-                <span class="legend-box git-lvl-2" title="3-4 contributions"></span>
-                <span class="legend-box git-lvl-3" title="5-6 contributions"></span>
-                <span class="legend-box git-lvl-4" title="7+ contributions"></span>
-                <span class="legend-text">More</span>
-              </div>
-            </div>
-
-            <!-- Floating GitHub Heatmap Tooltip -->
-            <div id="github-heatmap-tooltip" class="github-heatmap-tooltip" aria-hidden="true">
-              <span id="github-tooltip-count" class="github-tooltip-count">1 contribution</span>
-              <span id="github-tooltip-date" class="github-tooltip-date">Nov 8, 2025</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Language Breakdown Bar -->
-        <div class="language-breakdown-container">
-          <div class="language-bar-header">
-            <span class="lang-title">PRIMARY LANGUAGE CONCENTRATION</span>
-            <span class="lang-audit">AUDITED: VERIFIED REPOSITORIES</span>
-          </div>
-
-          <!-- Segmented Multi-Color Bar in GitHub Dark Purple Palette -->
-          <div class="language-bar-track">
-            <div class="language-segment lang-cpp-gh" style="width: 70%;" title="C++ 70%"></div>
-            <div class="language-segment" style="width: 20%; background-color: #E34F26;" title="HTML/CSS 20%"></div>
-            <div class="language-segment" style="width: 10%; background-color: #F1E05A;" title="JavaScript 10%"></div>
-          </div>
-
-          <!-- Language Legend with Bytes & Percentages -->
-          <div class="language-legend">
-            <div class="lang-legend-item">
-              <span class="lang-bullet bullet-cpp-gh"></span>
-              <span class="lang-name">C++ (Systems & CP Focus)</span>
-              <span class="lang-pct highlight-purple">70.0%</span>
-              <span class="lang-bytes">(Hospital Management & CP Solutions)</span>
-            </div>
-            <div class="lang-legend-item">
-              <span class="lang-bullet" style="background-color: #E34F26;"></span>
-              <span class="lang-name">HTML / CSS (Web Core)</span>
-              <span class="lang-pct" style="color: #E34F26;">20.0%</span>
-              <span class="lang-bytes">(E-Commerce Platform Core)</span>
-            </div>
-            <div class="lang-legend-item">
-              <span class="lang-bullet" style="background-color: #F1E05A;"></span>
-              <span class="lang-name">JavaScript (Motion Systems)</span>
-              <span class="lang-pct" style="color: #F1E05A;">10.0%</span>
-              <span class="lang-bytes">(High-Performance Portfolio)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 07: Pinned Horizontal Projects Gallery (07 // PROJECTS) -->
-    <section id="projects" class="projects-pinned-section">
-      <div class="projects-sticky-wrapper">
-        <div class="section-header-compact projects-header-inside">
-          <h2 class="section-headline">SELECTED PROJECTS // CODE REPOSITORIES</h2>
-          <div class="header-action-group">
-            <span class="section-tag gh-section-tag">HORIZONTAL_TRACK // 04_REPOSITORIES</span>
-          </div>
-        </div>
-
-        <div class="projects-horizontal-track">
-
-          <!-- Repo Card 1: codeforces-solutions (C++) -->
-          <div class="project-slide-card repo-slide-card code-snap-card" data-magnetic>
-            <div class="project-card-glow" aria-hidden="true"></div>
-            <div class="cf-terminal-header repo-card-top-bar">
-              <div class="terminal-controls">
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-              </div>
-              <span class="cf-terminal-filename repo-terminal-filename">Omar-Ayman-Ali / codeforces-solutions</span>
-              <div class="cf-terminal-status repo-terminal-status">
-                <span class="status-led-blink gh-led-purple"></span>
-                <span>STATUS: LIVE // GITHUB</span>
-              </div>
-            </div>
-
-            <div class="slide-card-header">
-              <div class="card-id-tag gh-id-tag">[REPO // 0x01]</div>
-              <span class="card-badge gh-badge">C++ ALGORITHMS</span>
-            </div>
-
-            <h3 class="slide-card-title">codeforces-solutions</h3>
-            <p class="slide-card-desc">
-              Personal archive of accepted Codeforces solutions, Assiut University Training Sheet exercises, and competitive programming algorithms tested in C++20.
-            </p>
-
-            <div class="slide-specs-grid">
-              <div class="spec-tile">
-                <span class="spec-label">PROBLEMS SOLVED</span>
-                <span class="spec-value highlight-purple">21+ Accepted</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">LANGUAGE</span>
-                <span class="spec-value">C++20 // STL</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">RUNTIME BOUNDS</span>
-                <span class="spec-value highlight-purple">O(1) to O(N log N)</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">REPOSITORY STATUS</span>
-                <span class="spec-value">Public // Active</span>
-              </div>
-            </div>
-
-            <!-- Code Snap Terminal Preview with 3-Second Hover Charging -->
-            <div class="repo-code-preview-container">
-              <div class="repo-code-file-tag">solution_template.cpp</div>
-              <pre class="cf-code-pre repo-code-pre"><code class="cf-code-block"><span class="code-kw">#include</span> <span class="code-str">&lt;iostream&gt;</span>
-<span class="code-kw">#include</span> <span class="code-str">&lt;vector&gt;</span>
-<span class="code-kw">using namespace</span> <span class="code-type">std</span>;
-
-<span class="code-kw">constexpr</span> <span class="code-type">long long</span> <span class="code-num">MOD</span> = <span class="code-num">1e9 + 7</span>;
-
-<span class="code-type">long long</span> <span class="code-func">power_mod</span>(<span class="code-type">long long</span> base, <span class="code-type">long long</span> exp) {
-    <span class="code-type">long long</span> res = <span class="code-num">1</span>; base %= <span class="code-num">MOD</span>;
-    <span class="code-kw">while</span> (exp &gt; <span class="code-num">0</span>) {
-        <span class="code-kw">if</span> (exp &amp; <span class="code-num">1</span>) res = (res * base) % <span class="code-num">MOD</span>;
-        base = (base * base) % <span class="code-num">MOD</span>;
-        exp &gt;&gt;= <span class="code-num">1</span>;
-    }
-    <span class="code-kw">return</span> res;
-}</code></pre>
-            </div>
-
-            <div class="slide-tech-chips">
-              <span class="tech-chip gh-tech-chip">C++20</span>
-              <span class="tech-chip gh-tech-chip">Algorithms</span>
-              <span class="tech-chip gh-tech-chip">Competitive Programming</span>
-              <span class="tech-chip gh-tech-chip">Codeforces API</span>
-            </div>
-
-            <div class="slide-card-footer repo-card-actions">
-              <a href="https://github.com/Omar-Ayman-Ali/codeforces-solutions" target="_blank" rel="noopener noreferrer" class="btn-card-action gh-btn-action" data-magnetic>
-                <span>VIEW REPO // GITHUB</span>
-                <span class="action-arrow">&nearr;</span>
-              </a>
-              <a href="problems.html" target="_blank" rel="noopener noreferrer" class="btn-card-action gh-btn-action-sec" data-magnetic>
-                <span>SOLUTIONS ARCHIVE</span>
-                <span class="action-arrow">&nearr;</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Repo Card 2: hospital-management-system-cpp (C++) -->
-          <div class="project-slide-card repo-slide-card code-snap-card" data-magnetic>
-            <div class="project-card-glow" aria-hidden="true"></div>
-            <div class="cf-terminal-header repo-card-top-bar">
-              <div class="terminal-controls">
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-              </div>
-              <span class="cf-terminal-filename repo-terminal-filename">Omar-Ayman-Ali / hospital-management-system-cpp</span>
-              <div class="cf-terminal-status repo-terminal-status">
-                <span class="status-led-blink gh-led-purple"></span>
-                <span>STATUS: LIVE // GITHUB</span>
-              </div>
-            </div>
-
-            <div class="slide-card-header">
-              <div class="card-id-tag gh-id-tag">[REPO // 0x02]</div>
-              <span class="card-badge gh-badge">C++ SYSTEMS ARCHITECTURE</span>
-            </div>
-
-            <h3 class="slide-card-title">hospital-management-system-cpp</h3>
-            <p class="slide-card-desc">
-              Production-ready C++ console architecture featuring user authentication, doctor availability scheduling, appointment booking, and persistent data storage.
-            </p>
-
-            <div class="slide-specs-grid">
-              <div class="spec-tile">
-                <span class="spec-label">ACCESS COMPLEXITY</span>
-                <span class="spec-value highlight-purple">O(1) Indexed Keys</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">LICENSE</span>
-                <span class="spec-value">MIT License</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">PARADIGM</span>
-                <span class="spec-value highlight-purple">Object-Oriented Design</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">PERSISTENCE</span>
-                <span class="spec-value">File Streams I/O</span>
-              </div>
-            </div>
-
-            <!-- Code Snap Terminal Preview with 3-Second Hover Charging -->
-            <div class="repo-code-preview-container">
-              <div class="repo-code-file-tag">DoctorSchedule.hpp</div>
-              <pre class="cf-code-pre repo-code-pre"><code class="cf-code-block"><span class="code-kw">#include</span> <span class="code-str">&lt;iostream&gt;</span>
-<span class="code-kw">#include</span> <span class="code-str">&lt;fstream&gt;</span>
-<span class="code-kw">#include</span> <span class="code-str">&lt;vector&gt;</span>
-<span class="code-kw">using namespace</span> <span class="code-type">std</span>;
-
-<span class="code-kw">class</span> <span class="code-type">DoctorSchedule</span> {
-<span class="code-kw">public</span>:
-    <span class="code-type">string</span> doctorId;
-    <span class="code-type">string</span> specialization;
-    <span class="code-type">bool</span> <span class="code-func">isAvailable</span>(<span class="code-type">int</span> slotHour) <span class="code-kw">const</span> {
-        <span class="code-kw">return</span> slotHour &gt;= <span class="code-num">9</span> &amp;&amp; slotHour &lt;= <span class="code-num">17</span>;
-    }
-    <span class="code-type">bool</span> <span class="code-func">bookAppointment</span>(<span class="code-kw">const</span> <span class="code-type">string</span>&amp; patientId, <span class="code-type">int</span> slot);
-};</code></pre>
-            </div>
-
-            <div class="slide-tech-chips">
-              <span class="tech-chip gh-tech-chip">C++</span>
-              <span class="tech-chip gh-tech-chip">File I/O</span>
-              <span class="tech-chip gh-tech-chip">OOP Design</span>
-              <span class="tech-chip gh-tech-chip">Persistent Storage</span>
-            </div>
-
-            <div class="slide-card-footer repo-card-actions">
-              <a href="https://github.com/Omar-Ayman-Ali/hospital-management-system-cpp" target="_blank" rel="noopener noreferrer" class="btn-card-action gh-btn-action" data-magnetic>
-                <span>VIEW REPO // GITHUB</span>
-                <span class="action-arrow">&nearr;</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Repo Card 3: ecommerce-summer-training (HTML/CSS) -->
-          <div class="project-slide-card repo-slide-card code-snap-card" data-magnetic>
-            <div class="project-card-glow" aria-hidden="true"></div>
-            <div class="cf-terminal-header repo-card-top-bar">
-              <div class="terminal-controls">
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-              </div>
-              <span class="cf-terminal-filename repo-terminal-filename">Omar-Ayman-Ali / ecommerce-summer-training</span>
-              <div class="cf-terminal-status repo-terminal-status">
-                <span class="status-led-blink gh-led-purple"></span>
-                <span>STATUS: LIVE // GITHUB</span>
-              </div>
-            </div>
-
-            <div class="slide-card-header">
-              <div class="card-id-tag gh-id-tag">[REPO // 0x03]</div>
-              <span class="card-badge gh-badge">RESPONSIVE WEB INTERFACE</span>
-            </div>
-
-            <h3 class="slide-card-title">ecommerce-summer-training</h3>
-            <p class="slide-card-desc">
-              Frontend e-commerce interface built during intensive technical summer training with responsive layout grids and dynamic client-side catalog navigation.
-            </p>
-
-            <div class="slide-specs-grid">
-              <div class="spec-tile">
-                <span class="spec-label">ARCHITECTURE</span>
-                <span class="spec-value highlight-purple">Responsive CSS Grid</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">CONTEXT</span>
-                <span class="spec-value">Summer Training</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">COMMUNITY FORKS</span>
-                <span class="spec-value highlight-purple">1 Active Fork</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">VIEWPORTS</span>
-                <span class="spec-value">Desktop &amp; Mobile</span>
-              </div>
-            </div>
-
-            <!-- Code Snap Terminal Preview with 3-Second Hover Charging -->
-            <div class="repo-code-preview-container">
-              <div class="repo-code-file-tag">catalog_grid.html</div>
-              <pre class="cf-code-pre repo-code-pre"><code class="cf-code-block"><span class="code-comment">&lt;!-- Semantic E-Commerce Catalog Architecture --&gt;</span>
-<span class="code-kw">&lt;section</span> <span class="code-type">class</span>=<span class="code-str">"catalog-grid"</span> <span class="code-type">aria-label</span>=<span class="code-str">"Products"</span><span class="code-kw">&gt;</span>
-  <span class="code-kw">&lt;article</span> <span class="code-type">class</span>=<span class="code-str">"product-card"</span> <span class="code-type">data-category</span>=<span class="code-str">"electronics"</span><span class="code-kw">&gt;</span>
-    <span class="code-kw">&lt;div</span> <span class="code-type">class</span>=<span class="code-str">"product-thumb-wrapper"</span><span class="code-kw">&gt;</span>
-      <span class="code-kw">&lt;img</span> <span class="code-type">src</span>=<span class="code-str">"assets/item.webp"</span> <span class="code-type">alt</span>=<span class="code-str">"Hardware Sensor Node"</span> <span class="code-type">loading</span>=<span class="code-str">"lazy"</span><span class="code-kw">&gt;</span>
-    <span class="code-kw">&lt;/div&gt;</span>
-    <span class="code-kw">&lt;div</span> <span class="code-type">class</span>=<span class="code-str">"product-meta"</span><span class="code-kw">&gt;</span>
-      <span class="code-kw">&lt;span</span> <span class="code-type">class</span>=<span class="code-str">"product-sku"</span><span class="code-kw">&gt;</span>SKU // SYS-088<span class="code-kw">&lt;/span&gt;</span>
-      <span class="code-kw">&lt;h3</span> <span class="code-type">class</span>=<span class="code-str">"product-title"</span><span class="code-kw">&gt;</span>Telemetry Sensor Node<span class="code-kw">&lt;/h3&gt;</span>
-      <span class="code-kw">&lt;span</span> <span class="code-type">class</span>=<span class="code-str">"product-price"</span><span class="code-kw">&gt;</span>$149.00<span class="code-kw">&lt;/span&gt;</span>
-    <span class="code-kw">&lt;/div&gt;</span>
-  <span class="code-kw">&lt;/article&gt;</span>
-<span class="code-kw">&lt;/section&gt;</span></code></pre>
-            </div>
-
-            <div class="slide-tech-chips">
-              <span class="tech-chip gh-tech-chip">HTML5</span>
-              <span class="tech-chip gh-tech-chip">CSS Grid</span>
-              <span class="tech-chip gh-tech-chip">Responsive Layouts</span>
-              <span class="tech-chip gh-tech-chip">Semantic UI</span>
-            </div>
-
-            <div class="slide-card-footer repo-card-actions">
-              <a href="https://github.com/Omar-Ayman-Ali/ecommerce-summer-training" target="_blank" rel="noopener noreferrer" class="btn-card-action gh-btn-action" data-magnetic>
-                <span>VIEW REPO // GITHUB</span>
-                <span class="action-arrow">&nearr;</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Repo Card 4: my-portfolio (JavaScript / GSAP) -->
-          <div class="project-slide-card repo-slide-card code-snap-card" data-magnetic>
-            <div class="project-card-glow" aria-hidden="true"></div>
-            <div class="cf-terminal-header repo-card-top-bar">
-              <div class="terminal-controls">
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-                <span class="terminal-dot"></span>
-              </div>
-              <span class="cf-terminal-filename repo-terminal-filename">Omar-Ayman-Ali / my-portfolio</span>
-              <div class="cf-terminal-status repo-terminal-status">
-                <span class="status-led-blink gh-led-purple"></span>
-                <span>STATUS: LIVE // GITHUB</span>
-              </div>
-            </div>
-
-            <div class="slide-card-header">
-              <div class="card-id-tag gh-id-tag">[REPO // 0x04]</div>
-              <span class="card-badge gh-badge">MOTION &amp; SYSTEMS ARCHITECTURE</span>
-            </div>
-
-            <h3 class="slide-card-title">my-portfolio</h3>
-            <p class="slide-card-desc">
-              High-performance developer portfolio featuring a 4-phase cinematic GSAP intro sequence, SVG telemetry scrubbers, dynamic live Codeforces API synchronization, and 60fps animations.
-            </p>
-
-            <div class="slide-specs-grid">
-              <div class="spec-tile">
-                <span class="spec-label">ANIMATION ENGINE</span>
-                <span class="spec-value highlight-purple">GSAP 3.15 + ScrollTrigger</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">PERFORMANCE</span>
-                <span class="spec-value">60 FPS Compositor</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">LIVE TELEMETRY</span>
-                <span class="spec-value highlight-purple">Codeforces &amp; GitHub</span>
-              </div>
-              <div class="spec-tile">
-                <span class="spec-label">INTRO SEQUENCE</span>
-                <span class="spec-value">SplitText + Matrix Rain</span>
-              </div>
-            </div>
-
-            <!-- Code Snap Terminal Preview with 3-Second Hover Charging -->
-            <div class="repo-code-preview-container">
-              <div class="repo-code-file-tag">intro-sequence.js</div>
-              <pre class="cf-code-pre repo-code-pre"><code class="cf-code-block"><span class="code-comment">// 4-Phase Cinematic Master Timeline Orchestration</span>
-<span class="code-kw">const</span> masterTl = gsap.<span class="code-func">timeline</span>({ id: <span class="code-str">"introMasterTimeline"</span> });
-
-masterTl
-  .<span class="code-func">addLabel</span>(<span class="code-str">"phase1"</span>)
-  .<span class="code-func">to</span>(<span class="code-str">".intro-tile"</span>, { scale: <span class="code-num">1</span>, autoAlpha: <span class="code-num">1</span>, stagger: { from: <span class="code-str">"center"</span>, amount: <span class="code-num">0.55</span> } })
-  .<span class="code-func">addLabel</span>(<span class="code-str">"phase2"</span>, <span class="code-str">"+=0.1"</span>)
-  .<span class="code-func">to</span>(splitChars, { autoAlpha: <span class="code-num">1</span>, y: <span class="code-num">0</span>, stagger: <span class="code-num">0.02</span>, ease: <span class="code-str">"back.out(1.8)"</span> })
-  .<span class="code-func">addLabel</span>(<span class="code-str">"phase3"</span>, <span class="code-str">"+=2.0"</span>)
-  .<span class="code-func">to</span>(<span class="code-str">".intro-rain-col"</span>, { y: <span class="code-str">"100%"</span>, duration: gsap.utils.<span class="code-func">random</span>(<span class="code-num">1.2</span>, <span class="code-num">1.8</span>) });</code></pre>
-            </div>
-
-            <div class="slide-tech-chips">
-              <span class="tech-chip gh-tech-chip">JavaScript</span>
-              <span class="tech-chip gh-tech-chip">GSAP 3</span>
-              <span class="tech-chip gh-tech-chip">SVG Charts</span>
-              <span class="tech-chip gh-tech-chip">CSS Tokens</span>
-            </div>
-
-            <div class="slide-card-footer repo-card-actions">
-              <a href="https://github.com/Omar-Ayman-Ali/my-portfolio" target="_blank" rel="noopener noreferrer" class="btn-card-action gh-btn-action" data-magnetic>
-                <span>VIEW REPO // GITHUB</span>
-                <span class="action-arrow">&nearr;</span>
-              </a>
-              <a href="index.html" class="btn-card-action gh-btn-action-sec" data-magnetic>
-                <span>ACTIVE SITE</span>
-                <span class="action-arrow">&nearr;</span>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 08: Algorithmic Manifesto (08 // MANIFESTO) -->
-    <section id="philosophy" class="manifesto-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">ALGORITHMIC MANIFESTO</h2>
-        <span class="section-tag">CORE_BELIEFS // FIRST_PRINCIPLES</span>
-      </div>
-
-      <div class="manifesto-container">
-        <div class="manifesto-lead">
-          <div class="manifesto-tag">[THESIS // 0x01]</div>
-          <h3 class="manifesto-statement" id="manifesto-statement">
-            <span class="manifesto-line">
-              <span class="manifesto-word">Code</span>
-              <span class="manifesto-word">is</span>
-              <span class="manifesto-word">temporary.</span>
-            </span>
-            <span class="manifesto-line highlight-green">
-              <span class="manifesto-word highlight-green">Time</span>
-              <span class="manifesto-word highlight-green">complexity</span>
-              <span class="manifesto-word highlight-green">is</span>
-              <span class="manifesto-word highlight-green">eternal.</span>
-            </span>
-          </h3>
-        </div>
-
-        <div class="manifesto-subthesis-card">
-          <div class="subthesis-header">
-            <span class="subthesis-badge">ASYMPTOTIC SUPREMACY</span>
-            <span class="subthesis-coord">ADDR: 0x7FFE62A1 // OMAR ALI</span>
-          </div>
-          <p class="manifesto-subthesis">
-            &ldquo;Every problem has an optimal bound. 219 problems solved, building toward mastery one submission at a time.&rdquo;
-          </p>
-          <p class="manifesto-desc">
-            Modern frameworks and transient syntactic sugar fade with time. The immutable structural laws of cache coherence, branch prediction, and asymptotic algorithmic bounds remain invariant across computational paradigms. Rigor is forged through relentless competitive problem-solving.
-          </p>
-          <div class="manifesto-pillars-row">
-            <div class="manifesto-mini-pillar">
-              <span class="mini-pillar-title">BOUNDS GUARANTEE</span>
-              <span class="mini-pillar-val highlight-green">OPTIMAL O(1) &amp; O(N log N)</span>
-            </div>
-            <div class="manifesto-mini-pillar">
-              <span class="mini-pillar-title">PROBLEM ARCHIVE</span>
-              <span class="mini-pillar-val">219 VERIFIED SOLVED</span>
-            </div>
-            <div class="manifesto-mini-pillar">
-              <span class="mini-pillar-title">SYSTEMS CORE</span>
-              <span class="mini-pillar-val highlight-orange">C++20 // LOW-LEVEL</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 09: Transmission / Contact Terminal (09 // TRANSMIT) -->
-    <section id="contact" class="contact-section">
-      <div class="section-header-compact">
-        <h2 class="section-headline">INITIATE TRANSMISSION // CONNECT</h2>
-        <span class="section-tag">TTY_SESSION // TCP_PORT_443</span>
-      </div>
-
-      <div class="connect-terminal-window code-snap-card">
-        <div class="terminal-header">
-          <div class="terminal-controls">
-            <span class="terminal-dot"></span>
-            <span class="terminal-dot"></span>
-            <span class="terminal-dot"></span>
-          </div>
-          <span class="terminal-title">omar_ali@ainshams:~$ ./connect.sh</span>
-          <div class="terminal-socket-status">
-            <span class="status-led-blink"></span>
-            <span>SOCKET: ESTABLISHED</span>
-          </div>
-        </div>
-
-        <div class="terminal-body">
-          <!-- Interactive Shell Command Line Simulation -->
-          <div class="terminal-cmd-line">
-            <span class="cmd-prompt">omar_ali@ainshams:~$</span>
-            <span class="cmd-text">./connect.sh --target=omar-ali --verify-credentials</span>
-            <span class="cmd-cursor"></span>
-          </div>
-
-          <div class="terminal-banner-text">
-            [TCP_HANDSHAKE_OK] Secure channel established with National Ain Shams University AI Lab. Direct verified transmission routes:
-          </div>
-
-          <!-- Direct Interactive Communication Channels Grid -->
-          <div class="contact-channels-grid">
-            <!-- Codeforces -->
-            <a href="https://codeforces.com/profile/Itz_Arslan" target="_blank" rel="noopener noreferrer" class="channel-card" data-magnetic aria-label="CODEFORCES // ITZ_ARSLAN - Inspect 219 solved problems on Codeforces">
-              <div class="channel-top">
-                <span class="channel-proto">PROTOCOL: CP_RANK</span>
-                <span class="channel-status status-active">ONLINE</span>
-              </div>
-              <div class="channel-header-row">
-                <svg class="channel-svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M4.5 7.5a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-3 0v-9a1.5 1.5 0 0 1 1.5-1.5zM12 3a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-3 0V4.5A1.5 1.5 0 0 1 12 3zm7.5 7.5a1.5 1.5 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-3 0v-6a1.5 1.5 0 0 1 1.5-1.5z"/></svg>
-                <div class="channel-name">CODEFORCES</div>
-              </div>
-              <div class="channel-address">codeforces.com/profile/Itz_Arslan</div>
-              <div class="channel-link-text">
-                <span>INSPECT 219 SOLVED</span>
-                <span class="channel-arrow">&nearr;</span>
-              </div>
-            </a>
-
-            <!-- GitHub -->
-            <a href="https://github.com/Omar-Ayman-Ali" target="_blank" rel="noopener noreferrer" class="channel-card" data-magnetic aria-label="GITHUB // @OMAR-AYMAN-ALI - Audit open-source repositories on GitHub">
-              <div class="channel-top">
-                <span class="channel-proto">PROTOCOL: GIT_VCS</span>
-                <span class="channel-status status-active">ONLINE</span>
-              </div>
-              <div class="channel-header-row">
-                <svg class="channel-svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                <div class="channel-name">GITHUB</div>
-              </div>
-              <div class="channel-address">github.com/Omar-Ayman-Ali</div>
-              <div class="channel-link-text">
-                <span>AUDIT CODEBASES</span>
-                <span class="channel-arrow">&nearr;</span>
-              </div>
-            </a>
-
-            <!-- Email Direct -->
-            <a href="mailto:omar.ayman.ali@outlook.com" class="channel-card" data-magnetic aria-label="EMAIL DIRECT - Compose message to Omar Ali (omar.ayman.ali@outlook.com)">
-              <div class="channel-top">
-                <span class="channel-proto">PROTOCOL: SMTP</span>
-                <span class="channel-status status-active">ONLINE</span>
-              </div>
-              <div class="channel-header-row">
-                <svg class="channel-svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-                <div class="channel-name">EMAIL DIRECT</div>
-              </div>
-              <div class="channel-address">omar.ayman.ali@outlook.com</div>
-              <div class="channel-link-text">
-                <span>COMPOSE MESSAGE</span>
-                <span class="channel-arrow">&rarr;</span>
-              </div>
-            </a>
-
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/omar-ayman-el-sayed/" target="_blank" rel="noopener noreferrer" class="channel-card" data-magnetic aria-label="LINKEDIN - Establish connection with Omar Ali on LinkedIn">
-              <div class="channel-top">
-                <span class="channel-proto">PROTOCOL: NETWORK</span>
-                <span class="channel-status status-active">ONLINE</span>
-              </div>
-              <div class="channel-header-row">
-                <svg class="channel-svg" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                <div class="channel-name">LINKEDIN</div>
-              </div>
-              <div class="channel-address">linkedin.com/in/omar-ayman-el-sayed</div>
-              <div class="channel-link-text">
-                <span>ESTABLISH CONNECTION</span>
-                <span class="channel-arrow">&nearr;</span>
-              </div>
-            </a>
-          </div>
-
-          <!-- Integrated Diagnostics & Controls -->
-          <div class="terminal-integrated-diag">
-            <div class="diag-feed-mini">
-              <div class="diag-mini-header">
-                <span>REALTIME STDOUT LOGS</span>
-                <span>TTY_BUFFER // AUTO-SYNC</span>
-              </div>
-              <div id="diagnostic-logs" class="feed-logs-mini">
-                <!-- Streamed by app.js -->
-              </div>
-            </div>
-
-            <div class="terminal-quick-actions">
-              <button id="btn-switch-algo" class="btn-terminal-action" type="button" data-magnetic aria-label="TOGGLE STRUCTURE - Switch Benchmark Algorithm">
-                <span>TOGGLE STRUCTURE</span>
-                <span class="action-symbol">&gt;&gt;</span>
-              </button>
-              <a href="#hero" class="btn-terminal-action" data-magnetic aria-label="RETURN TO ROOT - Return to top of page">
-                <span>RETURN TO ROOT</span>
-                <span class="action-symbol">^</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="terminal-footer-meta">
-            <span>LOCATION: BANHA &amp; CAIRO, EGYPT (30.0771&deg; N, 31.2859&deg; E)</span>
-            <span>SECURITY: TLS 1.3 / AES-256-GCM // HARDENED</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Telemetry Footer HUD -->
+      <div class="heat-stats" data-heat-stats></div>
+    </div>
+  </section>
+</main>
+
+<section id="projects" class="projects">
+  <div class="shell section-head" style="margin-bottom: 0">
+    <div data-reveal>
+      <span class="eyebrow">06 — Selected projects</span>
+      <h2 class="h2" data-projects-title>Repositories.</h2>
+    </div>
+    <a class="btn btn-ghost btn-inline" data-gh-profile href="https://github.com/Omar-Ayman-Ali" target="_blank" rel="noopener">
+      <i data-lucide="git-branch"></i>All on GitHub <i data-lucide="arrow-up-right"></i>
+    </a>
+  </div>
+  <div class="shell">
+    <div class="project-grid" data-projects></div>
+  </div>
+</section>
+
+<section id="manifesto" class="poster">
+  <div class="shell poster__inner">
+    <span class="poster__label" data-manifesto-label>Manifesto</span>
+    <h2 data-manifesto>
+      <span class="poster__line">Code is <span class="poster__decay" data-decay>temporary.</span></span>
+      <span class="poster__line">Time complexity is <span class="poster__eternal" data-eternal>eternal.</span></span>
+    </h2>
+  </div>
+</section>
+
+<section id="contact" class="shell" style="padding-top: 96px; padding-bottom: 56px">
+  <div data-reveal>
+    <span class="eyebrow">07 — Contact</span>
+    <a class="contact-mail" href="mailto:omar.ayman.ali@outlook.com">omar.ayman.ali@outlook.com <i data-lucide="arrow-up-right"></i></a>
+  </div>
+  <div class="contact-grid" data-contacts></div>
   <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-meta-block">
-        <div class="footer-stamp">&copy; 2026 OMAR ALI // NATIONAL AIN SHAMS UNIVERSITY</div>
-        <div class="footer-coords">LOCATION: <span class="highlight-green">CAIRO &amp; BANHA, EGYPT // 30.0771&deg; N, 31.2859&deg; E</span></div>
-        <div class="footer-uptime">STATUS: <span class="highlight-green">SYS_STATUS: ACTIVE</span> // 219 SOLVED // C++20</div>
-      </div>
-
-
-      <div class="footer-nav">
-        <a href="#hero" data-magnetic>ROOT</a>
-        <a href="#about" data-magnetic>ABOUT</a>
-        <a href="#capabilities" data-magnetic>PILLARS</a>
-        <a href="#arsenal" data-magnetic>ARSENAL</a>
-        <a href="#codeforces" data-magnetic>BENCHMARKS</a>
-        <a href="#github" data-magnetic>GITHUB</a>
-        <a href="#projects" data-magnetic>LABS</a>
-        <a href="#philosophy" data-magnetic>MANIFESTO</a>
-        <a href="#contact" data-magnetic>TRANSMIT</a>
-      </div>
-    </div>
+    <span>© <span data-year>2026</span> Omar Ayman Ali · National Ain Shams University</span>
+    <span class="freshness" data-freshness></span>
+    <a class="btn-inline" href="#hero">Back to top <i data-lucide="arrow-up"></i></a>
   </footer>
+</section>
 
-  <!-- Apple HIG Context Menu (macOS Liquid Glass Style) -->
-  <div id="hig-context-menu" class="hig-context-menu" role="menu" aria-label="Quick Actions Context Menu" hidden>
-    <div class="hig-context-header">
-      <span class="hig-context-badge">macOS // QUICK ACTIONS</span>
-      <span class="hig-context-esc">ESC</span>
-    </div>
-    <div class="hig-context-body">
-      <!-- Context-dependent action: Copy Code -->
-      <button type="button" class="hig-context-item" role="menuitem" id="hig-ctx-copy">
-        <span class="hig-ctx-icon">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-        </span>
-        <span class="hig-ctx-label">Copy Solution Code</span>
-        <kbd class="hig-ctx-shortcut">⌘C</kbd>
-      </button>
-
-      <!-- Focus Mode -->
-      <button type="button" class="hig-context-item" role="menuitem" id="hig-ctx-focus">
-        <span class="hig-ctx-icon">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
-        </span>
-        <span class="hig-ctx-label">Toggle 3s Focus Glow</span>
-        <kbd class="hig-ctx-shortcut">⌘F</kbd>
-      </button>
-
-      <div class="hig-context-separator" role="separator"></div>
-
-      <!-- Quick Navigation Header / Items -->
-      <div class="hig-context-subheader">JUMP TO SECTION</div>
-      <button type="button" class="hig-context-item" role="menuitem" data-nav="#hero">
-        <span class="hig-ctx-icon">01</span>
-        <span class="hig-ctx-label">Hero // Terminal</span>
-        <kbd class="hig-ctx-shortcut">1</kbd>
-      </button>
-      <button type="button" class="hig-context-item" role="menuitem" data-nav="#about">
-        <span class="hig-ctx-icon">02</span>
-        <span class="hig-ctx-label">About // Systems</span>
-        <kbd class="hig-ctx-shortcut">2</kbd>
-      </button>
-      <button type="button" class="hig-context-item" role="menuitem" data-nav="#codeforces">
-        <span class="hig-ctx-icon">05</span>
-        <span class="hig-ctx-label">Codeforces Telemetry</span>
-        <kbd class="hig-ctx-shortcut">5</kbd>
-      </button>
-      <button type="button" class="hig-context-item" role="menuitem" data-nav="#projects">
-        <span class="hig-ctx-icon">06</span>
-        <span class="hig-ctx-label">Projects &amp; GitHub</span>
-        <kbd class="hig-ctx-shortcut">6</kbd>
-      </button>
-      <button type="button" class="hig-context-item" role="menuitem" data-nav="#contact">
-        <span class="hig-ctx-icon">07</span>
-        <span class="hig-ctx-label">Connect Terminal</span>
-        <kbd class="hig-ctx-shortcut">7</kbd>
-      </button>
-
-      <div class="hig-context-separator" role="separator"></div>
-
-      <!-- External Links -->
-      <a href="https://codeforces.com/profile/Itz_Arslan" target="_blank" rel="noopener noreferrer" class="hig-context-item" role="menuitem">
-        <span class="hig-ctx-icon">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-        </span>
-        <span class="hig-ctx-label">Codeforces Profile (Itz_Arslan)</span>
-        <span class="hig-ctx-shortcut">↗</span>
-      </a>
-      <a href="https://github.com/Omar-Ayman-Ali" target="_blank" rel="noopener noreferrer" class="hig-context-item" role="menuitem">
-        <span class="hig-ctx-icon">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-        </span>
-        <span class="hig-ctx-label">GitHub (Omar-Ayman-Ali)</span>
-        <span class="hig-ctx-shortcut">↗</span>
-      </a>
-      <button type="button" class="hig-context-item" role="menuitem" id="hig-ctx-top">
-        <span class="hig-ctx-icon">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
-        </span>
-        <span class="hig-ctx-label">Scroll to Top</span>
-        <kbd class="hig-ctx-shortcut">↑</kbd>
-      </button>
-    </div>
-  </div>
-
-  <!-- Apple HIG Feedback Toast -->
-  <div id="hig-toast" class="hig-toast" role="status" aria-live="polite" hidden>
-    <span class="hig-toast-icon">✓</span>
-    <span id="hig-toast-text" class="hig-toast-text">Action completed</span>
-  </div>
-
-  <!-- GSAP 3.12+ Core and Plugins from CDN with Subresource Integrity -->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" integrity="sha384-RVPQwTb0fPz9kI8s5GwAq1Qioto9fnEQt1aKGSQSm8xV6+DIdBSgcCShoHqfKnhv" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script defer src="js/vendor/SplitText.min.js"></script>
-  <script defer src="js/vendor/ScrambleTextPlugin.min.js"></script>
-
-  <!-- Lenis 1.1+ Smooth Scrolling Engine from CDN with Subresource Integrity -->
-  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js" integrity="sha384-eD5ubmuCcvTdCADWuSchJYE7wcj2nzNr0itbrh6w/KJyBiltSZ8w3VFRBSWu5YQ8" crossorigin="anonymous"></script>
-
-  <!-- Application Modules -->
-  <script defer src="js/canvas-graph.js"></script>
-  <script defer src="js/cursor.js"></script>
-  <script defer src="js/intro-sequence.js"></script>
-  <script defer src="js/animations.js"></script>
-  <script defer src="js/app.js"></script>
-  <script defer src="js/api-sync.js"></script>
 </body>
 </html>

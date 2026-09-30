@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Problems Archive — Omar Ayman Ali</title>
+<meta name="description" content="Every accepted Codeforces submission by Omar Ayman Ali: C++ solutions for Codeforces rounds, Assiut University training sheets, acmASCIS Level 1 training and IEEE CodeRefine.">
+<meta name="author" content="Omar Ayman Ali">
+<meta name="theme-color" content="#f3f2f2">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Problems Archive — Omar Ayman Ali">
+<meta property="og:description" content="Every accepted submission. Searchable, filterable, synced from Codeforces.">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://codeforces.com" crossorigin>
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="mask-icon" href="assets/img/favicon.svg" color="#ec3013">
+
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/site.css">
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@1.49.0/dist/umd/lucide.min.js" defer></script>
+<script type="module" src="assets/js/archive.js"></script>
+</head>
+
+<body>
+
+<nav class="nav" data-nav>
+  <a href="index.html" class="nav-brand"><span class="mark"></span>Omar Ali</a>
+  <a class="btn-inline" href="index.html"><i data-lucide="arrow-left"></i>Portfolio</a>
+  <a href="#difficulty">Difficulty</a>
+  <a href="#index">Index</a>
+  <a class="btn btn-primary btn-inline" data-cf-profile href="https://codeforces.com/profile/Itz_Arslan" target="_blank" rel="noopener">
+    <span data-cf-handle>Codeforces</span> <i data-lucide="arrow-up-right"></i>
+  </a>
+</nav>
+
+<header class="archive-header">
+  <div class="shell archive-header__inner">
+    <span class="kicker" data-hero-kicker><i data-lucide="archive"></i>Codeforces archive · <span data-repo-slug>codeforces-solutions</span></span>
+    <h1 class="display display--archive">
+      <span class="line-mask"><span data-line>Every accepted</span></span>
+      <span class="line-mask"><span data-line class="accent">submission.</span></span>
+    </h1>
+    <p class="lead" data-hero-sub>C++ solutions for Codeforces rounds, Assiut University training sheets, acmASCIS Level 1 training and IEEE CodeRefine. Each one is tested and accepted, and synced automatically from Codeforces into the repository.</p>
+    <div class="cta-row" data-hero-cta>
+      <a class="btn btn-primary btn-inline" data-repo-link href="https://github.com/Omar-Ayman-Ali/codeforces-solutions" target="_blank" rel="noopener">
+        <i data-lucide="git-branch"></i>View on GitHub
+      </a>
+      <a class="btn btn-ghost btn-inline" href="#index">Browse the index <i data-lucide="arrow-down-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<main class="shell">
+
+  <section aria-label="Summary" class="stat-grid" data-stats></section>
+
+  <hr class="hr" data-rule>
+
+  <section id="difficulty" class="section split">
+    <div>
+      <div data-reveal>
+        <span class="eyebrow">01 — Difficulty breakdown</span>
+        <h2 class="h2" style="margin-bottom: 12px" data-difficulty-title>Difficulty.</h2>
+        <p style="font-size: 16px; line-height: 26px; margin: 0 0 32px; max-width: 48ch" data-difficulty-note></p>
+      </div>
+      <figure data-reveal data-chart style="margin: 0; display: flex; flex-direction: column; gap: 24px">
+        <div class="mode-row" data-donut-modes></div>
+        <div class="donut-wrap">
+          <div class="donut">
+            <svg data-donut viewBox="0 0 200 200" width="240" height="240" role="img" aria-label="Rating distribution">
+              <circle cx="100" cy="100" r="78" fill="none" stroke="var(--color-neutral-200)" stroke-width="34"></circle>
+              <g data-donut-segments></g>
+            </svg>
+            <div class="donut__center">
+              <span class="k" data-donut-k></span>
+              <span class="v" data-donut-v></span>
+              <span class="sub" data-donut-sub></span>
+            </div>
+          </div>
+          <div class="legend" data-legend></div>
+        </div>
+      </figure>
+    </div>
+
+    <div>
+      <div data-reveal>
+        <span class="eyebrow">02 — Top tags</span>
+        <h2 class="h2" style="margin-bottom: 12px">What I practise.</h2>
+        <p style="font-size: 16px; line-height: 26px; margin: 0 0 32px; max-width: 48ch">Click a tag to filter the index below.</p>
+      </div>
+      <div class="tag-bars" data-reveal data-tag-bars></div>
+    </div>
+  </section>
+
+  <hr class="hr" data-rule>
+
+  <section id="index" class="section">
+    <div class="section-head" data-reveal style="margin-bottom: 32px">
+      <div>
+        <span class="eyebrow">03 — Solved problems index</span>
+        <h2 class="h2">Search the archive.</h2>
+      </div>
+      <span class="index-count"><strong data-match-count>0</strong> of <span data-total>0</span> indexed</span>
+    </div>
+
+    <div class="filters" data-reveal>
+      <div class="filters__row">
+        <label class="search">
+          <i data-lucide="search"></i>
+          <span class="visually-hidden">Search problems</span>
+          <input type="search" data-search placeholder="Search by name, contest or tag" autocomplete="off">
+        </label>
+        <button type="button" class="btn btn-ghost" data-clear hidden>Clear filters ×</button>
+      </div>
+      <div class="filters__row">
+        <span class="filters__legend">Source</span>
+        <div class="mode-row" data-source-opts></div>
+      </div>
+      <div class="filters__row">
+        <span class="filters__legend">Rating</span>
+        <div class="mode-row" data-band-opts></div>
+        <button type="button" class="tag tag-accent" data-tag-chip hidden style="border: 0; cursor: pointer; font: inherit; font-size: 13px"></button>
+      </div>
+      <div class="filters__row">
+        <span class="filters__legend">Sort</span>
+        <div class="mode-row" data-sort-opts></div>
+      </div>
+    </div>
+
+    <div class="table-scroll" data-reveal>
+      <div class="table-min">
+        <div class="row row--head" data-heads role="row"></div>
+        <div data-rows></div>
+        <div class="empty" data-empty hidden>
+          No problems match these filters.
+          <button type="button" class="btn btn-secondary" data-reset>Clear filters</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="more" data-more hidden>
+      <span>Showing <span data-shown>0</span> of <span data-match-count>0</span></span>
+      <nav class="pager" data-pager aria-label="Problem pages"></nav>
+    </div>
+  </section>
+</main>
+
+<section class="poster">
+  <div class="shell poster--archive">
+    <h2>
+      <span class="poster__line"><span data-word>One</span> <span data-word>submission</span> <span data-word>at</span> <span data-word>a</span> <span data-word>time.</span></span>
+    </h2>
+    <a class="poster__back" href="index.html"><i data-lucide="arrow-left"></i>Back to portfolio</a>
+  </div>
+</section>
+
+<footer class="shell site-footer site-footer--archive">
+  <span>© <span data-year>2026</span> Omar Ayman Ali · <span data-freshness>Archive</span> · MIT License</span>
+  <a href="#index">Back to index ↑</a>
+</footer>
+
+</body>
+</html>
