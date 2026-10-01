@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:26:28.308Z",
+  "generatedAt": "2026-10-01T20:20:48.008Z",
   "archive": {
     "total": 256,
     "solved": [
@@ -4865,7 +4865,7 @@
     "country": "Egypt",
     "avatar": "https://userpic.codeforces.org/5255724/title/134d06bc8a311607.jpg",
     "registeredAt": 1760547015,
-    "lastOnlineAt": 1790802209,
+    "lastOnlineAt": 1790866270,
     "contests": [
       {
         "contestId": 2227,
@@ -12834,11 +12834,11 @@
         "language": "JavaScript",
         "stars": 1,
         "forks": 0,
-        "size": 324,
+        "size": 325,
         "topics": [],
         "license": "",
         "createdAt": "2026-09-02T10:43:32Z",
-        "pushedAt": "2026-10-01T07:10:23Z"
+        "pushedAt": "2026-10-01T14:26:29Z"
       },
       {
         "name": "ecommerce-summer-training",
