@@ -482,9 +482,10 @@ function paintCalendar(box, calendar) {
   }
 
   grid.replaceChildren(
-    ...calendar.cells.map(c =>
+    ...calendar.cells.map((c, i) =>
       el('span', {
-        style: `background: var(--h${c.level})`,
+        // --i staggers the CSS entrance (see .heat-grid in site.css).
+        style: `background: var(--h${c.level}); --i: ${i}`,
         'data-label': c.label,
         title: c.label,
       }),
@@ -554,6 +555,11 @@ function renderFreshness(state) {
 function playIntro(gsap, lenis, ease) {
   const intro = $('[data-intro]');
   if (!intro) return Promise.resolve();
+  // Already seen this session (flag read in <head>): straight to the hero.
+  if (document.documentElement.classList.contains('intro-played')) {
+    intro.remove();
+    return Promise.resolve();
+  }
 
   lenis?.stop();
   const count = intro.querySelector('[data-intro-count]');
@@ -603,7 +609,11 @@ function playIntro(gsap, lenis, ease) {
     // Wait for webfonts (so the name never reflows mid-animation) and for two
     // frames, so the page setup that ran this tick has been painted.
     const fonts = Promise.race([document.fonts?.ready, new Promise(r => setTimeout(r, 1200))]);
-    fonts.then(() => requestAnimationFrame(() => requestAnimationFrame(() => tl.play())));
+    fonts.then(() => requestAnimationFrame(() => requestAnimationFrame(() => {
+      // Marked on start, so refreshing mid-intro skips it too.
+      try { sessionStorage.setItem('intro-played', '1'); } catch {}
+      tl.play();
+    })));
   });
 }
 
@@ -615,6 +625,8 @@ function pageMotion({ gsap, ScrollTrigger, lenis, ease }) {
     .from('[data-hero-cta] > *', { y: 20, opacity: 0, duration: 0.6, stagger: 0.08 }, '-=0.6')
     .from('[data-hero-fig]', { clipPath: 'inset(0 100% 0 0)', duration: 1.3, ease: 'expo.inOut' }, 0.5)
     .from('[data-hero-fig] pre', { opacity: 0, y: 10, duration: 0.6 }, '-=0.3');
+  // The from-states are applied now, so the CSS hold on the hero can lift.
+  document.documentElement.classList.add('hero-ready');
 
   gsap.to('[data-hero-fig]', {
     yPercent: -10,
@@ -648,15 +660,19 @@ function pageMotion({ gsap, ScrollTrigger, lenis, ease }) {
     scrollTrigger: { trigger: '[data-chart]', start: 'top 80%' },
   });
 
+  // The calendars' ~740 cells pop in as a CSS animation: a GSAP tween per
+  // cell cost ~400ms of main thread at load, which stalled the hero entrance.
+  // The animation is dropped once it ends, so the hover tweens' inline
+  // transforms are not overridden by its fill.
   gsap.utils.toArray('[data-heat]').forEach(grid =>
-    gsap.from(grid.children, {
-      scale: 0.4,
-      opacity: 0,
-      duration: 0.5,
-      ease: 'back.out(1.6)',
-      clearProps: 'opacity',
-      stagger: { amount: 1.4, from: 'start' },
-      scrollTrigger: { trigger: grid, start: 'top 85%' },
+    ScrollTrigger.create({
+      trigger: grid,
+      start: 'top 85%',
+      once: true,
+      onEnter: () => {
+        grid.dataset.shown = 'in';
+        setTimeout(() => (grid.dataset.shown = 'done'), 2000);
+      },
     }),
   );
 
@@ -669,7 +685,12 @@ function pageMotion({ gsap, ScrollTrigger, lenis, ease }) {
   ScrollTrigger.refresh();
 
   // Last, so none of the setup above lands inside the intro's frames.
-  playIntro(gsap, lenis, ease).then(() => heroTimeline.play());
+  // With the intro skipped, still wait two frames so the setup above is
+  // painted before the hero's first frame.
+  heroTimeline.call(settleHero); // releases queued live updates
+  playIntro(gsap, lenis, ease).then(() =>
+    requestAnimationFrame(() => requestAnimationFrame(() => heroTimeline.play())),
+  );
 }
 
 /**
@@ -764,30 +785,35 @@ async function main() {
   renderArsenal();
   renderMarquee();
 
-  const state = await liveData((next, source) => {
-    // Something shown on the page changed (polls that bring back the same
-    // numbers never get here). Repainting replaces nodes the motion layer had
-    // already bound, so re-arm the reveals and counters for the new ones —
-    // both calls skip anything they have handled before.
+  // Something shown on the page changed (polls that bring back the same
+  // numbers never get here). Repainting replaces nodes the motion layer had
+  // already bound, so re-arm the reveals and counters for the new ones —
+  // both calls skip anything they have handled before. The repaint and
+  // refresh cost a few frames, so they wait out the intro and hero entrance.
+  const state = await liveData((next, source) => heroSettled.then(() => {
     paint(next, source);
     $$('[data-heat-box]').forEach(heatmapHover);
     revealBatch();
     countUp();
-    // The intro refreshes on its way out; a refresh now would stall it.
-    if (!$('[data-intro]')) window.ScrollTrigger?.refresh();
-  });
+    window.ScrollTrigger?.refresh();
+  }));
 
   renderContacts(state);
   paint(state);
 
   await waitForLibs();
-  startMotion({ onContext: pageMotion });
+  if (!startMotion({ onContext: pageMotion }).lenis) settleHero(); // nothing to wait for
   $$('[data-heat-box]').forEach(heatmapHover);
   $$('[data-heat-box]').forEach(heatFocus);
   boxHover('[data-stats], [data-cf-stats], [data-heat-stats]');
 }
 
+let settleHero;
+const heroSettled = new Promise(resolve => (settleHero = resolve));
+
 main().catch(err => {
   console.error('[portfolio]', err);
   document.querySelector('[data-intro]')?.remove();
+  document.documentElement.classList.add('hero-ready');
+  settleHero();
 });

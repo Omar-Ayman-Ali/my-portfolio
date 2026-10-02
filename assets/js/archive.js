@@ -629,11 +629,17 @@ function bind() {
 /* ---------------------------------------------------------- page motion -- */
 
 function pageMotion({ gsap, ease }) {
-  gsap.timeline({ defaults: { ease } })
+  const heroTimeline = gsap.timeline({ paused: true, defaults: { ease } })
     .from('[data-hero-kicker]', { y: 20, opacity: 0, duration: 0.6 })
     .from('[data-line]', { yPercent: 110, duration: 1.2, stagger: 0.12 }, '-=0.3')
     .from('[data-hero-sub]', { y: 24, opacity: 0, duration: 0.8 }, '-=0.8')
     .from('[data-hero-cta] > *', { y: 20, opacity: 0, duration: 0.6, stagger: 0.08 }, '-=0.6');
+  // The from-states are applied now, so the CSS hold on the header can lift.
+  document.documentElement.classList.add('hero-ready');
+  heroTimeline.call(settleHero); // releases queued live updates
+  // Two frames, so the setup this tick has been painted before the first
+  // frame of the entrance (otherwise it opens with a jump).
+  requestAnimationFrame(() => requestAnimationFrame(() => heroTimeline.play()));
 
   gsap.from('[data-donut]', {
     rotate: -120,
@@ -678,7 +684,9 @@ async function main() {
     ...(data.problems ?? []),
   ].map((p, i) => shape(p, i, repoBase));
 
-  const data = await liveData((next, source) => {
+  // A live update re-renders the table and refreshes every ScrollTrigger —
+  // a few frames' work — so hold it until the header entrance has landed.
+  const data = await liveData((next, source) => heroSettled.then(() => {
     applyIdentity(next.config, next.codeforces);
     drawIcons();
     if (source !== 'codeforces') return;
@@ -690,7 +698,7 @@ async function main() {
     countUp();
     $('[data-freshness]').textContent =
       `Archive live · ${new Date().toLocaleDateString('en', { day: 'numeric', month: 'short', year: 'numeric' })}`;
-  }, { problems: true });
+  }), { problems: true });
 
   const { config, codeforces, generatedAt } = data;
   const repo = config.archiveRepo;
@@ -710,17 +718,27 @@ async function main() {
 
   await waitForLibs();
   engine = startMotion({ onContext: pageMotion });
+  if (!engine.lenis) settleHero(); // unanimated: no entrance to wait for
   boxHover('[data-stats]');
   introRows();
 }
 
 let engine = null;
 
+let settleHero;
+const heroSettled = new Promise(resolve => (settleHero = resolve));
+
+/** The stuck nav's bottom edge: its sticky `top` plus its height. */
+function navBottom() {
+  const nav = $('[data-nav]');
+  return nav ? nav.offsetHeight + (parseFloat(getComputedStyle(nav).top) || 0) : 0;
+}
+
 /** Scroll through Lenis when it owns the page, natively otherwise. */
 function scrollToIndex() {
   const target = document.getElementById('index');
   if (!target) return;
-  if (engine?.lenis) engine.lenis.scrollTo(target, { offset: -($('[data-nav]')?.offsetHeight ?? 0) });
+  if (engine?.lenis) engine.lenis.scrollTo(target, { offset: -navBottom() });
   else target.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
@@ -766,4 +784,8 @@ function applyIdentity(config, cf) {
   $('[data-repo-link]').href = `https://github.com/${config.archiveRepo.owner}/${config.archiveRepo.name}`;
 }
 
-main().catch(err => console.error('[archive]', err));
+main().catch(err => {
+  console.error('[archive]', err);
+  document.documentElement.classList.add('hero-ready');
+  settleHero();
+});

@@ -137,13 +137,46 @@ html:not(.no-motion) [data-reveal] { opacity: 0; }
 
 /* ----------------------------------------------------------------- nav --- */
 
+/* A floating pane of frosted glass with softened corners. Margin + padding add
+   up to the .shell gutter, so the brand still lines up with the page content.
+   At the top of the page it reads as a quiet bar; once content scrolls beneath
+   it (data-scrolled, set in motion.js) the pane gains body, a lit top edge and
+   a soft drop shadow. */
 .nav {
   position: sticky;
-  top: 0;
+  top: 12px;
   z-index: 20;
-  padding-inline: clamp(20px, 5vw, 72px);
+  margin: 12px clamp(8px, 2vw, 32px) 0;
+  padding-inline: clamp(12px, 3vw, 40px);
   flex-wrap: wrap;
   gap: 20px;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--color-bg) 40%, transparent);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  backdrop-filter: blur(18px) saturate(180%);
+  border: 1px solid color-mix(in srgb, var(--color-text) 10%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, #fff 55%, transparent);
+  transition:
+    background-color 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+/* Concentric with the pane: its radius less the nav's 12px vertical padding. */
+.nav .btn { border-radius: 6px; }
+
+.nav[data-scrolled] {
+  background: color-mix(in srgb, var(--color-bg) 62%, transparent);
+  border-color: color-mix(in srgb, var(--color-text) 14%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, #fff 70%, transparent),
+    0 10px 30px -18px color-mix(in srgb, var(--color-text) 45%, transparent);
+}
+
+/* No backdrop blur: an almost-solid pane keeps the links legible over text. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .nav,
+  .nav[data-scrolled] { background: color-mix(in srgb, var(--color-bg) 94%, transparent); }
 }
 
 .nav-brand {
@@ -185,6 +218,10 @@ html:not(.no-motion) [data-reveal] { opacity: 0; }
   overflow: hidden;
   will-change: transform;
 }
+
+/* Seen this session, or no motion engine to play it (libraries blocked). */
+html.intro-played .intro,
+html.no-motion .intro { display: none; }
 
 .intro__body {
   display: flex;
@@ -249,6 +286,14 @@ html:not(.no-motion) [data-reveal] { opacity: 0; }
   background:
     linear-gradient(to right, var(--color-neutral-200) 2px, transparent 2px) 0 0 /
     calc(100% / 6) 100%;
+}
+
+/* With no intro covering the page while data and libraries load (a portfolio
+   refresh, or the archive), hold the hero until its timeline has applied the
+   entrance states; otherwise it paints, blinks out, and animates back in. */
+@media (prefers-reduced-motion: no-preference) {
+  html.intro-played:not(.no-motion):not(.hero-ready) .hero__inner,
+  html.hero-hold:not(.no-motion):not(.hero-ready) .archive-header__inner { visibility: hidden; }
 }
 
 .hero__inner {
@@ -672,6 +717,17 @@ html:not(.no-motion) [data-reveal] { opacity: 0; }
 .heat-grid span { position: relative; cursor: pointer; }
 
 .heat-grid span { transition: opacity 0.25s ease; }
+
+/* Entrance: cells pop in left to right, 1.4s across the year, once the grid
+   scrolls into view (data-shown, set in portfolio.js). */
+html:not(.no-motion) .heat-grid:not([data-shown]) span { opacity: 0; }
+.heat-grid[data-shown='in'] span {
+  animation: heat-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: calc(var(--i, 0) * 1.4s / 371);
+}
+@keyframes heat-in {
+  from { opacity: 0; transform: scale(0.4); }
+}
 /* A hovered stat names a set of days: everything else steps back. */
 .heat-grid[data-focus] span:not([data-in]) { opacity: 0.18; }
 

@@ -373,6 +373,11 @@ function poll(task, interval) {
 
 /* ----------------------------------------------------------- calendars --- */
 
+// toLocale*String builds a fresh Intl formatter on every call; over 371 cells
+// and several calendars per paint that was most of buildCalendar's time.
+const MONTH = new Intl.DateTimeFormat('en', { month: 'short' });
+const DAY = new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric', year: 'numeric' });
+
 /**
  * Turn a `{ 'YYYY-MM-DD': count }` map into the 53-column grid both heatmaps
  * render. Weeks start on Sunday, matching GitHub's own calendar.
@@ -407,7 +412,7 @@ export function buildCalendar(days = {}, { unit = 'contributions', today = new D
       lastMonth = d.getMonth();
       const prev = months[months.length - 1];
       if (col < 51 && (!prev || col - prev.col >= 3)) {
-        months.push({ col, name: d.toLocaleString('en', { month: 'short' }) });
+        months.push({ col, name: MONTH.format(d) });
       }
     }
 
@@ -416,7 +421,7 @@ export function buildCalendar(days = {}, { unit = 'contributions', today = new D
       count: n,
       level: level(n),
       label: `${n ? `${n} ${n === 1 ? unit.replace(/s$/, '') : unit}` : `No ${unit}`} · ` +
-             d.toLocaleDateString('en', { month: 'short', day: 'numeric', year: 'numeric' }),
+             DAY.format(d),
     });
   }
 

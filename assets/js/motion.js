@@ -40,11 +40,32 @@ export function drawIcons() {
 }
 
 /**
+ * Mark the nav once content scrolls beneath it, so its glass can firm up.
+ * Lenis moves the native scroll position, so the window scroll event covers
+ * both the smooth and the unanimated page.
+ */
+function glassNav(nav) {
+  if (!nav) return;
+  let scrolled = null;
+  const update = () => {
+    const next = window.scrollY > 8;
+    if (next === scrolled) return;
+    scrolled = next;
+    nav.toggleAttribute('data-scrolled', next);
+  };
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+}
+
+/**
  * Boot Lenis + ScrollTrigger and run every shared scroll effect.
  * Returns a handle with the Lenis instance, the GSAP context and a `destroy()`.
  */
 export function startMotion({ navSelector = '[data-nav]', onContext } = {}) {
   drawIcons();
+
+  const nav = document.querySelector(navSelector);
+  glassNav(nav);
 
   if (reducedMotion() || !window.gsap || !window.ScrollTrigger || !window.Lenis) {
     document.documentElement.classList.add('no-motion');
@@ -54,8 +75,9 @@ export function startMotion({ navSelector = '[data-nav]', onContext } = {}) {
   const { gsap, ScrollTrigger, Lenis } = window;
   gsap.registerPlugin(ScrollTrigger);
 
-  const nav = document.querySelector(navSelector);
-  const navHeight = () => nav?.offsetHeight ?? 0;
+  // Where the floating nav's bottom edge sits once stuck (its sticky `top`
+  // plus its height), so anchored sections land just below it.
+  const navHeight = () => (nav ? nav.offsetHeight + (parseFloat(getComputedStyle(nav).top) || 0) : 0);
 
   const lenis = new Lenis({ lerp: 0.09 });
 
