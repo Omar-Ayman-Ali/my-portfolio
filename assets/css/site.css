@@ -173,6 +173,18 @@ html:not(.no-motion) [data-reveal] { opacity: 0; }
     0 10px 30px -18px color-mix(in srgb, var(--color-text) 45%, transparent);
 }
 
+/* Fast scroll (data-fast-scroll, see scrollState in motion.js): drop the blur
+   for a denser frosted fill, and stop hit-testing hover under a resting
+   pointer. The blur is never transitioned — animating it re-filters every
+   frame, which is the cost being shed. */
+html[data-fast-scroll] .nav {
+  background: color-mix(in srgb, var(--color-bg) 88%, transparent);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  transition-duration: 0.15s, 0.4s, 0.4s;
+}
+html[data-fast-scroll] body { pointer-events: none; }
+
 /* No backdrop blur: an almost-solid pane keeps the links legible over text. */
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .nav,
@@ -713,6 +725,12 @@ html.no-motion .intro { display: none; }
   grid-auto-flow: column;
   grid-auto-columns: 13px;
   gap: 3px;
+  /* ~370 cells each are the bulk of what the browser re-layers on every
+     scrolled frame; skip them while the grid is off screen. The placeholder
+     is the grid's exact size, so nothing shifts: buildCalendar always spans
+     53 weeks (53 × 13 + 52 × 3 wide, 7 × 13 + 6 × 3 tall). */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 845px auto 109px;
 }
 .heat-grid span { position: relative; cursor: pointer; }
 

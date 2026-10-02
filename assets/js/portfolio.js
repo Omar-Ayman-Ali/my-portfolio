@@ -634,22 +634,37 @@ function pageMotion({ gsap, ScrollTrigger, lenis, ease }) {
     scrollTrigger: { trigger: '#hero', start: 'top top', end: 'bottom top', scrub: true },
   });
 
-  gsap.to('[data-cursor]', { opacity: 0, repeat: -1, yoyo: true, duration: 0.5, ease: 'steps(1)' });
-
-  // Marquee, sped up by scroll velocity and eased back to rest.
-  const marquee = gsap.to('[data-marquee]', { xPercent: -50, repeat: -1, duration: 40, ease: 'none' });
+  // The infinite loops only run while they are on screen: created paused,
+  // and their triggers start them (onToggle also fires on load when in range).
+  const caret = gsap.to('[data-cursor]', { opacity: 0, repeat: -1, yoyo: true, duration: 0.5, ease: 'steps(1)', paused: true });
   ScrollTrigger.create({
-    start: 0,
-    end: 'max',
+    trigger: '#hero',
+    start: 'top bottom',
+    end: 'bottom top',
+    onToggle: self => caret.paused(!self.isActive),
+  });
+
+  // Marquee, sped up by scroll velocity and eased back to rest. One speed
+  // value chases its target on the ticker: building a fresh pair of tweens on
+  // every scroll update churned dozens of them a second.
+  const marquee = gsap.to('[data-marquee]', { xPercent: -50, repeat: -1, duration: 40, ease: 'none', paused: true });
+  let speed = 1;
+  let boost = 1;
+  ScrollTrigger.create({
+    trigger: '.marquee',
+    start: 'top bottom',
+    end: 'bottom top',
+    onToggle: self => marquee.paused(!self.isActive),
     onUpdate: self => {
-      const boost = 1 + Math.min(5, Math.abs(self.getVelocity()) / 500);
-      gsap.to(marquee, {
-        timeScale: boost,
-        duration: 0.2,
-        overwrite: true,
-        onComplete: () => gsap.to(marquee, { timeScale: 1, duration: 1.2 }),
-      });
+      boost = Math.max(boost, 1 + Math.min(5, Math.abs(self.getVelocity()) / 500));
     },
+  });
+  gsap.ticker.add(() => {
+    if (marquee.paused() || (speed === 1 && boost === 1)) return;
+    speed += (boost - speed) * 0.25; // catch up in a few frames
+    boost += (1 - boost) * 0.03; // then settle back over ~1.5s
+    if (Math.abs(boost - 1) < 0.002 && Math.abs(speed - 1) < 0.002) speed = boost = 1;
+    marquee.timeScale(speed);
   });
 
   gsap.from('[data-grow]', {

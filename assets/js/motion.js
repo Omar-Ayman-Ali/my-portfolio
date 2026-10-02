@@ -40,18 +40,45 @@ export function drawIcons() {
 }
 
 /**
- * Mark the nav once content scrolls beneath it, so its glass can firm up.
+ * Scroll state for CSS. The nav gets data-scrolled once content passes
+ * beneath it, so its glass can firm up. <html> gets data-fast-scroll while the
+ * page moves fast, which sheds the two costliest things per frame (site.css):
+ *   - the nav's backdrop blur, which re-filters everything behind it on every
+ *     frame the page moves; at that speed a denser frosted fill reads the same;
+ *   - hover: with the pointer resting on the page, every frame hit-tested and
+ *     fired hover tweens as content slid beneath it.
  * Lenis moves the native scroll position, so the window scroll event covers
  * both the smooth and the unanimated page.
  */
-function glassNav(nav) {
-  if (!nav) return;
+const FAST_SCROLL = 1.2; // px per ms (1200px/s): past a brisk read-through
+const CALM_AFTER = 200; // ms below that speed before both come back
+
+function scrollState(nav) {
+  const root = document.documentElement;
   let scrolled = null;
+  let fast = false;
+  let calm;
+  let lastY = window.scrollY;
+  let lastT = performance.now();
+
   const update = () => {
-    const next = window.scrollY > 8;
-    if (next === scrolled) return;
-    scrolled = next;
-    nav.toggleAttribute('data-scrolled', next);
+    const y = window.scrollY;
+    const now = performance.now();
+    const speed = Math.abs(y - lastY) / Math.max(1, now - lastT);
+    lastY = y;
+    lastT = now;
+
+    const next = y > 8;
+    if (nav && next !== scrolled) {
+      scrolled = next;
+      nav.toggleAttribute('data-scrolled', next);
+    }
+
+    if (speed > FAST_SCROLL) {
+      if (!fast) root.toggleAttribute('data-fast-scroll', (fast = true));
+      clearTimeout(calm);
+      calm = setTimeout(() => root.toggleAttribute('data-fast-scroll', (fast = false)), CALM_AFTER);
+    }
   };
   update();
   window.addEventListener('scroll', update, { passive: true });
@@ -65,7 +92,7 @@ export function startMotion({ navSelector = '[data-nav]', onContext } = {}) {
   drawIcons();
 
   const nav = document.querySelector(navSelector);
-  glassNav(nav);
+  scrollState(nav);
 
   if (reducedMotion() || !window.gsap || !window.ScrollTrigger || !window.Lenis) {
     document.documentElement.classList.add('no-motion');
