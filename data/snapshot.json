@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T13:21:04.972Z",
+  "generatedAt": "2026-10-03T17:56:17.108Z",
   "archive": {
     "total": 256,
     "solved": [
@@ -12822,10 +12822,24 @@
     "name": "Omar Ali",
     "bio": "",
     "avatar": "https://avatars.githubusercontent.com/u/275470532?v=4",
-    "publicRepos": 6,
+    "publicRepos": 7,
     "followers": 0,
     "createdAt": "2026-04-12T12:24:08Z",
     "repos": [
+      {
+        "name": "First-Semester-Fall-26-27",
+        "description": "",
+        "url": "https://github.com/Omar-Ayman-Ali/First-Semester-Fall-26-27",
+        "homepage": "",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "size": 26310,
+        "topics": [],
+        "license": "",
+        "createdAt": "2026-09-30T08:00:54Z",
+        "pushedAt": "2026-10-01T22:44:18Z"
+      },
       {
         "name": "omar-ayman-ali.github.io",
         "description": "",
@@ -12834,11 +12848,11 @@
         "language": "JavaScript",
         "stars": 1,
         "forks": 0,
-        "size": 341,
+        "size": 342,
         "topics": [],
         "license": "",
         "createdAt": "2026-09-02T10:43:32Z",
-        "pushedAt": "2026-10-03T08:04:20Z"
+        "pushedAt": "2026-10-03T13:21:06Z"
       },
       {
         "name": "ecommerce-summer-training",
@@ -12919,38 +12933,38 @@
     ],
     "languages": [
       {
-        "name": "C++",
-        "bytes": 241941,
-        "share": 0.2911398497977769
+        "name": "JavaScript",
+        "bytes": 256515,
+        "share": 0.2572654432981006
       },
       {
-        "name": "JavaScript",
-        "bytes": 236514,
-        "share": 0.2846092660403628
+        "name": "C++",
+        "bytes": 241941,
+        "share": 0.2426488065687611
       },
       {
         "name": "HTML",
-        "bytes": 187818,
-        "share": 0.22601090476322272
+        "bytes": 188142,
+        "share": 0.188692415776821
       },
       {
         "name": "CSS",
-        "bytes": 146173,
-        "share": 0.17589736863322233
+        "bytes": 159329,
+        "share": 0.159795122371959
       },
       {
         "name": "Python",
-        "bytes": 17179,
-        "share": 0.020672360119516783
+        "bytes": 142252,
+        "share": 0.14266816303156307
       },
       {
         "name": "Shell",
-        "bytes": 1388,
-        "share": 0.0016702506458984396
+        "bytes": 8904,
+        "share": 0.008930048952795304
       }
     ],
     "contributions": {
-      "total": 74,
+      "total": 118,
       "days": {
         "2026-04-12": 1,
         "2026-06-13": 6,
@@ -12967,8 +12981,9 @@
         "2026-09-10": 1,
         "2026-09-11": 1,
         "2026-09-21": 1,
-        "2026-09-30": 3,
-        "2026-10-02": 2
+        "2026-09-30": 10,
+        "2026-10-01": 31,
+        "2026-10-02": 8
       },
       "source": "github-graphql"
     }
