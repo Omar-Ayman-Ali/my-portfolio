@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T20:15:34.446Z",
+  "generatedAt": "2026-10-10T17:50:31.207Z",
   "archive": {
     "total": 256,
     "solved": [
@@ -4865,7 +4865,7 @@
     "country": "Egypt",
     "avatar": "https://userpic.codeforces.org/5255724/title/134d06bc8a311607.jpg",
     "registeredAt": 1760547015,
-    "lastOnlineAt": 1791312277,
+    "lastOnlineAt": 1791647341,
     "contests": [
       {
         "contestId": 2227,
@@ -12822,10 +12822,38 @@
     "name": "Omar Ali",
     "bio": "",
     "avatar": "https://avatars.githubusercontent.com/u/275470532?v=4",
-    "publicRepos": 6,
+    "publicRepos": 8,
     "followers": 0,
     "createdAt": "2026-04-12T12:24:08Z",
     "repos": [
+      {
+        "name": "java-project-roadmap",
+        "description": "",
+        "url": "https://github.com/Omar-Ayman-Ali/java-project-roadmap",
+        "homepage": "",
+        "language": "Java",
+        "stars": 0,
+        "forks": 0,
+        "size": 50,
+        "topics": [],
+        "license": "",
+        "createdAt": "2026-10-10T16:40:09Z",
+        "pushedAt": "2026-10-10T17:25:36Z"
+      },
+      {
+        "name": "cf-dojo",
+        "description": "",
+        "url": "https://github.com/Omar-Ayman-Ali/cf-dojo",
+        "homepage": "",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "size": 0,
+        "topics": [],
+        "license": "MIT",
+        "createdAt": "2026-10-10T17:02:14Z",
+        "pushedAt": "2026-10-10T17:12:17Z"
+      },
       {
         "name": "omar-ayman-ali.github.io",
         "description": "",
@@ -12838,7 +12866,7 @@
         "topics": [],
         "license": "",
         "createdAt": "2026-09-02T10:43:32Z",
-        "pushedAt": "2026-10-06T15:07:04Z"
+        "pushedAt": "2026-10-06T20:15:35Z"
       },
       {
         "name": "ecommerce-summer-training",
@@ -12919,38 +12947,43 @@
     ],
     "languages": [
       {
-        "name": "C++",
-        "bytes": 241941,
-        "share": 0.2911398497977769
+        "name": "Python",
+        "bytes": 684875,
+        "share": 0.4060990006955344
       },
       {
         "name": "JavaScript",
-        "bytes": 236514,
-        "share": 0.2846092660403628
+        "bytes": 327723,
+        "share": 0.19432448666536611
+      },
+      {
+        "name": "C++",
+        "bytes": 242682,
+        "share": 0.14389913150106762
       },
       {
         "name": "HTML",
-        "bytes": 187818,
-        "share": 0.22601090476322272
+        "bytes": 191082,
+        "share": 0.113302732981791
       },
       {
         "name": "CSS",
-        "bytes": 146173,
-        "share": 0.17589736863322233
+        "bytes": 188776,
+        "share": 0.11193538230377836
       },
       {
-        "name": "Python",
-        "bytes": 17179,
-        "share": 0.020672360119516783
+        "name": "Java",
+        "bytes": 49947,
+        "share": 0.029616246450432353
       },
       {
         "name": "Shell",
         "bytes": 1388,
-        "share": 0.0016702506458984396
+        "share": 0.0008230194020301541
       }
     ],
     "contributions": {
-      "total": 74,
+      "total": 80,
       "days": {
         "2026-04-12": 1,
         "2026-06-13": 6,
@@ -12968,7 +13001,8 @@
         "2026-09-11": 1,
         "2026-09-21": 1,
         "2026-09-30": 3,
-        "2026-10-02": 2
+        "2026-10-02": 2,
+        "2026-10-10": 6
       },
       "source": "github-graphql"
     }
